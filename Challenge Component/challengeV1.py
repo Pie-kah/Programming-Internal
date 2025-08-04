@@ -1,0 +1,332 @@
+import time 
+import random
+import json 
+
+class Challenge:
+    
+    def __init__():
+        pass
+    
+    def ch1_1_challenge():
+        #first challenge of chapter 1, it's a cryptogram
+        
+        #answer and score  
+        sentence = "The universe is a dark forest"
+        attempt = 0
+        
+        #challenge
+        print(""" 
+                __ __ E     __ __ I  __ E  __ __ E     I  __    __    
+                26 16 19    7  23 21 13 19 15 20 19    21 20    1
+                __ __ __ __    __ __ __ E  __ __ 
+                6  1  15 22    2  25 15 19 20 26""")
+        answer = input("Enter answer: ")
+        
+        #checking
+        while answer.lower() != sentence.lower():
+            #the user must answer correctly before moving on
+            attempt += 1
+            print("Wrong answer")
+            answer = input("Enter answer: ")
+        print("Correct!")
+            
+        return attempt
+    
+    def ch1_2_challenge():
+        #second challenge of chapter 1, a number memory game 
+        
+        attempt = 0 
+        numbers = []
+        answers = []
+        
+        for i in range(5):
+            num = random.randint(0,9)
+            numbers.append(num)
+            print(num)
+            time.sleep(2)
+        
+        answer = input("Enter code: ")
+        answer.split()
+        for items in answer:
+            items = int(items)
+            answers.append(items)
+        
+        while answers != numbers:
+            attempt += 1 
+            print("Wrong")
+            answer = input("Enter code: ")
+            answer.split()
+            answers = []
+            for items in answer:
+                items = int(items)
+                answers.append(items)
+        print("Correct")
+        
+        return attempt
+    
+    def ch2_challenge(turn):
+        attempt = 0 
+        
+        if turn == 1:
+            #riddle one
+            print("""
+                    “Start with silence in a heavy bowl,
+                    Stir with shadows from a sleepless soul.
+                    Sprinkle years lost to shame and pride—
+                    Then bake until the truth can’t hide.
+                    Tell me, wanderer, what is it I make?”
+                   """)
+            answer1 = "regret"
+            user_answer1 = input("Answer: ")
+            while answer1.lower() != user_answer1.lower():
+                attempt += 1
+                print("Wrong answer")
+                user_answer1 = input("Answer: ")
+            print("Correct")
+            
+        if turn == 2:
+            #riddle 2 
+            print(""""
+            “I tick but make no sound,
+            I’m neither lost nor found.
+            I measure time through lack,
+            Yet wear no numbered plaque.
+            What am I?”
+            """)
+            answer2 = "an absence"
+            user_answer2 = input("Answer: ")
+            while answer2.lower() != user_answer2.lower():
+                attempt += 1
+                print("Wrong answer")
+                user_answer2 = input("Answer: ")
+            print("Correct") 
+            
+        if turn == 3:
+            print("""
+            “I fall, yet never sink.
+            I lift, yet carry weight.
+            I shine, yet never blind.
+            I wound, though soft and light.
+            I am part of pain and beauty both.
+            What am I?” 
+            """)
+            answer3 = "a word"
+            user_answer3 = input("Answer: ")
+            while answer3.lower() != user_answer3.lower():
+                attempt += 1
+                print("Wrong answer")
+                user_answer3 = input("Answer: ")
+            print("Correct")  
+        return attempt
+    
+    def ch3_challenge():
+        attempt = 0
+        paths = [3, 4, 6]
+        choices = []
+        
+        while choices != paths:
+            choices = []
+            print("""
+                    1. A knight missing its heart, silent and unmoving.
+                    2. A scholar chained to burning books, eyes closed in contemplation.
+                    3. A child with eyes that blinked stars, holding a feather soaked in ink.
+    
+                    Each offered a price:
+                    “Take my path and lose your pride.”
+                    “Take mine and lose your name.”
+                    “Take mine and face the truth that breaks.”
+                       """)            
+            choice1 = int(input("Choice: "))
+            
+            if choice1 != 3:
+                print("""
+                Lysander is lead to a narrow corridor, filled with continous twists and turns
+                until they finally see a light at the end of the tunnel. They exit 
+                this hours long maze they've trekked through to see they have 
+                arrived at the same three statues.
+                """)
+                attempt += 1
+                
+            elif choice1 == 3:
+                choices.append(choice1)
+                print(""" 
+                Lysander arrives at another set of doors, this one has five doors.
+                They look at the moving pictures featured on the doors and recognise them 
+                as the five stages of grief:
+                1. Denial - depicting as a man aggressively shaking his head refusing to even look at Lysander
+                2. Anger - depicting as a woman screaming towards Lysander
+                3. Bargaining - depicting a person on their knees with their hands clasped praying for something 
+                4. Depression - depicting a man with his back against a wall hunching over a picture frame
+                5. Acceptance - depicting a woman standing at a gravestone, she smiling sadly
+                """)
+                
+                choice2 = int(input("Choice: "))
+                
+                if choice2 != 4:
+                    print("""
+                Lysander is lead to a narrow corridor, filled with continous twists and turns
+                until they finally see a light at the end of the tunnel. They exit 
+                this hours long maze they've trekked through to see they have 
+                arrived at the same three statues.
+                """)
+                    attempt += 1 
+                    
+                elif choice2 == 4:
+                    choices.append(choice2)
+                    print("""
+                        Lysander arrives in a circular room. The room had 7 doors when
+                        you excluded the door Lysander had just entered from. Each door each had
+                        just one word written on it.
+                                1. Pride
+                                2. Greed
+                                3. Wrath
+                                4. Envy
+                                5. Lust
+                                6. Gluttony
+                                7. Sloth
+                                       """) 
+                    
+                    choice3 = int(input("Choice: "))
+                    
+                    if choice3 != 6:
+                        print("""
+                    Lysander is lead to a narrow corridor, filled with continous twists and turns
+                    until they finally see a light at the end of the tunnel. They exit 
+                    this hours long maze they've trekked through to see they have 
+                    arrived at the same three statues.
+                    """)
+                        attempt += 1 
+                    
+                    elif choice3 == 6:
+                        choices.append(choice3)
+                        
+        return attempt
+    
+    def ch5_challenge():
+        attempt = 0 
+        options = ["rock", "paper", "scissors", "lizard", "spock"]
+        win = 0 
+        
+        while win != 1:
+            print("""
+            What will you pick:
+            1. rock
+            2. paper
+            3. scissors
+            4. lizard
+            5. spock
+            """)
+            
+            user_choice = int(input("Choice: "))
+            
+            user = options[user_choice-1]
+            bot = options[random.randint(0,4)]
+            
+            if bot == "rock" and (user == "scissors" or user == "lizard"):
+                attempt += 1 
+                print("Bot wins")
+            elif bot == "paper" and (user == "rock" or user == "spock"):
+                attempt += 1 
+                print("Bot wins")
+            elif bot == "scissors" and (user == "paper" or user == "lizard"):
+                attempt += 1 
+                print("Bot wins")
+            elif bot == "lizard" and (user == "paper" or user == "spock"):
+                attempt += 1
+                print("Bot wins")
+            elif bot == "spock" and (user == "rock" or user == "scissors"):
+                attempt += 1
+                print("Bot wins")
+            else: 
+                print("You win!")
+                win += 1
+            
+        return attempt
+    
+    def ch6_1_challenge():
+        attempt = 0 
+        bot_num = random.randint(1,100)
+        user_num = 0 
+        
+        while user_num != bot_num:
+            user_num = int(input("Enter number: "))
+            if user_num > bot_num:
+                print("Lower")
+                attempt += 1
+            elif user_num < bot_num:
+                print("Higher")
+                attempt += 1
+        
+        return attempt
+    
+    def ch6_2_challenge():
+        attempt = 0 
+        win = 0
+        math_q = []
+        math_a = []    
+        
+        with open("challenge.json") as file:
+            questions = json.load(file)
+            for chapter, challenge in questions.items():
+                if chapter == "ch6.2":
+                    maths = challenge
+        
+        for questions, answers in maths.items():
+            math_q.append(questions)
+            math_a.append(answers)
+            
+        while win != 1:
+            start_time = time.time()
+            
+            for i in range(10):
+                num = random.randint(0, 19)
+                user_a = 0
+                answer = math_a[num]
+                question = math_q[num]
+                
+                while user_a != answer:
+                    user_a = int(input(f" {question} = "))
+                    if user_a != answer:
+                        print("Wrong answer")
+                        attempt += 1
+                print("Correct!")
+            end_time = time.time()
+            total_time = end_time - start_time
+            print(total_time)
+            if total_time > 60:
+                print("Too Slow!")
+            else:
+                print("Super Fast!")
+                win += 1
+                
+        return attempt
+
+#testing :))))))
+attempts_per_ch = 0
+total_attempts = 0
+turns = 1 
+
+'''attempts_per_ch = Challenge.ch1_1_challenge()
+total_attempts += attempts_per_ch
+
+attempts_per_ch = Challenge.ch1_2_challenge()
+total_attempts += attempts_per_ch
+
+for i in range(3):
+    attempts_per_ch = Challenge.ch2_challenge(turns)
+    total_attempts += attempts_per_ch    
+    turns += 1 
+    
+attempts_per_ch = Challenge.ch3_challenge()
+total_attempts += attempts_per_ch
+
+attempts_per_ch = Challenge.ch5_challenge()
+total_attempts += attempts_per_ch
+
+attempts_per_ch = Challenge.ch6_1_challenge()
+total_attempts += attempts_per_ch'''
+
+attempts_per_ch = Challenge.ch6_2_challenge()
+total_attempts += attempts_per_ch
+
+print(total_attempts)
