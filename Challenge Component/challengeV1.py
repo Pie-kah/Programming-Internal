@@ -300,6 +300,108 @@ class Challenge:
                 win += 1
                 
         return attempt
+    
+    def ch7_challenge():
+        attempt = 0
+        win = 0
+        
+        #read the json file 
+        with open("challenge.json") as f:
+            file = json.load(f)
+            
+            for key, value in file.items():
+                if key == "ch7":
+                    quiz = value
+                    
+        while win != 1:
+            total = 0
+            #looping the questions
+            for key, value in quiz.items():
+                q = value["question"]
+                c = value["choices"]
+                a = value["answer"]
+                
+                #shuffle choices
+                random.shuffle(c)
+                
+                #print question 
+                print(q)
+                
+                #looping for choices
+                for i in range(len(c)):
+                    print(f"{i+1}. {c[i]}")
+                
+                #user input
+                print("")
+                user = input("Answer: ")
+                
+                #checking if answer is correct
+                if user.lower() == a.lower() or (user.isdigit() == True and c[int(user)-1] == a):
+                    total += 1
+                    print("Correct!")
+                else:
+                    attempt += 1
+                    print("Incorrect :(")
+                print("")
+            
+            #checks user got full score 
+            if total == 15:
+                win = 1
+            else:
+                print("You didn't get enough to pass")
+    
+        return attempt 
+    
+    def ch8_challenge():
+        attempt = 0
+        
+        #read the json file 
+        with open("challenge.json") as f:
+            file = json.load(f)
+            
+            for key, value in file.items():
+                if key == "ch8":
+                    quiz = value
+                    
+        #looping the questions
+        for key, value in quiz.items():
+            q_attempt = 0
+            win = 0
+            q = value["question"]
+            c = value["choices"]
+            a = value["answer"]
+                    
+            #shuffle choices
+            random.shuffle(c)
+            
+            while win != 1:
+                if q_attempt >= 5:
+                    #looping for choices
+                    for i in range(len(c)):
+                        print(f"{i+1}. {c[i]}")
+                        
+                #print question 
+                print(q)
+                        
+                #user input
+                print("")
+                user = input("Answer: ")
+                        
+                #checking if answer is correct
+                if user.lower() == a.lower() or (user.isdigit() == True and c[int(user)-1] == a):
+                    win += 1
+                    print("Correct!")
+                else:
+                    attempt += 1
+                    q_attempt += 1
+                    print("Incorrect :(")
+                print("")
+                
+        
+        return attempt         
+        
+    
+    
 
 #testing :))))))
 attempts_per_ch = 0
@@ -324,9 +426,15 @@ attempts_per_ch = Challenge.ch5_challenge()
 total_attempts += attempts_per_ch
 
 attempts_per_ch = Challenge.ch6_1_challenge()
-total_attempts += attempts_per_ch'''
+total_attempts += attempts_per_ch
 
 attempts_per_ch = Challenge.ch6_2_challenge()
+total_attempts += attempts_per_ch
+
+attempts_per_ch = Challenge.ch7_challenge()
+total_attempts += attempts_per_ch'''
+
+attempts_per_ch = Challenge.ch8_challenge()
 total_attempts += attempts_per_ch
 
 print(total_attempts)
