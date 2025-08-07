@@ -1,6 +1,7 @@
 {
   "guest": 2,
-  "tester": 4,
   "howidy": 5,
-  "pika": 5
+  "pika": 5,
+  "tester": 5,
+  "newer": 6
 }

@@ -1,5 +1,7 @@
 '''
 This is a leaderboard which shows the top 5 scorers of the game 
+29.7.2025
+Pika Ranzinger
 V1: write all the code and test it before giving it a GUI
 '''
 
@@ -8,15 +10,15 @@ import json
 class Leaderboard:
     '''leaderboard system showing top five scorers'''
     
-    def __init__(self, username, score):
+    def __init__(self, username, score,):
         self.username = username
         self.score = int(score)
         
-    def placement(self):
+    def placement(leaderboard):
         '''sorting the scores from least to most'''
         usernames = []
         scores = []
-        
+
         for key, value in leaderboard.items():
             #appending usernames and scores to separate list
             usernames.append(key)
@@ -44,7 +46,7 @@ class Leaderboard:
         
         #returning top five dict
         return final_list
-
+'''
 ###Main Program###
 #opening the json file
 with open("leaderboard.json") as file:
@@ -66,4 +68,4 @@ for key, value in top5.items():
 
 #dumping back to json file 
 with open("leaderboard.json", "w") as f:
-    json.dump(top5, f, indent = 2)
+    json.dump(top5, f, indent = 2)'''
