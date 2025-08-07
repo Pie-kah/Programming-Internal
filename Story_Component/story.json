@@ -1,0 +1,15 @@
+{ "Chapter 1" : {
+    "Prologue" : 
+    """Once, in the realm of Thalara—where the mountains whispered secrets to the stars—there wandered a clever, irreverent wayfarer named Lysander. Their charm often glittered louder than their wisdom, and their tongue raced ahead of their heart. 
+    One twilight, beneath a wind-bent tree, Lysander met an angel whose wings shimmered in the moonlight. Mocking them with a careless jibe, Lysander laughed: “Nice wings—stitched from moths, were they?”
+    The angel's eyes dimmed with sorrow. “Words carry weight, mortal. Yours shall anchor your soul.”
+    A curse surged through Lysander's chest. In seven days, they would unravel—unless they reached Wizard Aldric's tower located at the world's edge.
+    So began their journey.""",
+    "Forest of Veymor":
+    ["In the forest of Veymor, trees bent to whisper forgotten names. Moss glowed beneath footfalls. Illusions hunted truth.",
+    "There, Lysander met Thim, a child made of bark. The wind had stolen Thim's name, and with it, their form. To restore it, Lysander ventured deep into the Grove of Lost Things.",
+    "Among carnivorous daisies and whispering shadows, Lysander retrieved Thim's name by decoding leafglyphs carved onto a memory stone.",
+    " Upon return, Thim smiled for the first time in years and gifted them the Compass of Longing, pointing not to places—but to what the soul needed most.",
+    "'Trust it,' Thim whispered. 'But only if you dare to know yourself.'"]
+}
+}
