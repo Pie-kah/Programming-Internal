@@ -7,6 +7,7 @@ Version One: All basic code for it to run
 Version Two: creating it's GUI'''
 
 from tkinter import *
+import tkinter.font as tkfont
 
 class Story:
     '''the reading and separation of the story by sections '''
@@ -15,16 +16,37 @@ class Story:
         #identifying main variables 
         self.file_path = file_path
         self.title_lists = title_lists
-        self.num = 1
+        self.num = 2
         self.sections = sections 
         
         #window
         self.root = Tk()
         self.root.title("Storyline")
+        self.root.configure(bg="#ffe6c9")        
+        
+        #fonts
+        self.title_font = tkfont.Font(family="Lucida Handwriting", size=12)
+        self.label_font = tkfont.Font(family="Century Gothic", size=10)
+        self.button_font = tkfont.Font(family="Tahoma", size=12, weight="bold")                
+        
+        #sizing 
+        self.root.resizable(0,0)
+        self.root.geometry("700x550")        
         
         #container for frame
-        self.container = Frame(self.root)
+        self.container = Frame(self.root, width=700, height=550,
+                               highlightthickness=5, bg="#ffe6c9",
+                               highlightbackground="#ceb79b", 
+                               highlightcolor="#ceb79b")
         self.container.grid(row=0, column=0, sticky="nsew")
+        self.container.grid_propagate(False)
+        
+        #column and row configurations 
+        self.root.grid_rowconfigure(0, weight=1)
+        self.root.grid_columnconfigure(0, weight=1)
+        
+        self.container.grid_rowconfigure(0, weight=1)
+        self.container.grid_columnconfigure(0, weight=1)        
         
         #dictionary for frames
         self.frames = {}
@@ -45,16 +67,40 @@ class Story:
     def create_story_frame(self, chapter, section):
         '''creating the GUI for the chapters'''
         #frame
-        frame = Frame(self.container)
-        frame.grid(row=0, grid=0, sticky="nsew")
+        frame = Frame(self.container, height=660, width=360, pady=20,padx=20, 
+                      bg="#ffe6c9")
+        frame.grid(row=0, column=0, sticky="nsew")
+        
+        frame.grid_rowconfigure(0, weight=1)
+        frame.grid_columnconfigure(0, weight=1)        
+        frame.grid_propagate(False)
         
         #chapter title 
-        title_label = Label(frame, text=f"~~ {chapter} ~~")
-        title_label.grid(row=0, column=0, columnspan=2, pady=10, padx=10)
+        title_label = Label(frame, text=f"{chapter}", font=self.title_font
+                            ,bg="#ffe6c9")
+        title_label.grid(row=0, column=0, columnspan=2, sticky="n")
         
         #section label 
-        section_label = Label(frame, text=section)
-        section_label.grid(row=1, column=0, columnspan=2, pady=10, padx=10)
+        section_label = Label(frame, text=section, font=self.label_font, bg="#ffe6c9")
+        section_label.grid(row=0, column=0, columnspan=2, pady=20)
+        
+        #continue button
+        cont_button = Button(frame, text = "Continue", height=3, width=30, font = self.button_font, 
+                             relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                             command=lambda: self.next_chapter(title_label, section_label))
+        cont_button.grid(row=2, column=0, columnspan=2, pady=20)
+        
+        return frame
+    
+    def next_chapter(self, title, text):
+        if self.num == len(self.title_lists) + 1:
+            self.root.destroy()
+        else:
+            header = self.title_lists[self.num]
+            message = self.sections[header]
+            title.config(text= header)
+            text.config(text=message)
+            self.num += 1
     
     def chapters(file_path):
         #separating story by sections 
@@ -98,12 +144,18 @@ class Story:
             
         return sections 
     
-#file_path = r"N:\13PRG\st21121-Pika\Assessments\91906PikaRanzinger\Story_Component\story.txt"
+file_path = r"N:\13PRG\st21121-Pika\Assessments\91906PikaRanzinger\Story_Component\story.txt"
 
-#sections = Story.chapters(file_path)
+sections = Story.chapters(file_path)
+titles = {}
+i = 1
 
-#for title, content in sections.items():
-    #print(f'''
-    #=== {title} ===
-    #{content}
-    #''')
+for title, content in sections.items():
+    if content != "":
+        titles[i] = title
+        i += 1
+
+heading = titles[1]
+text = sections[heading]
+app = Story(file_path, heading, text, titles, sections)
+app.run()
