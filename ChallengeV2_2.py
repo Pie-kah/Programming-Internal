@@ -8,6 +8,7 @@ import random
 import json 
 import tkinter.font as tkfont
 from tkinter import *
+from tkinter import ttk
 
 
 class Challenge:
@@ -17,6 +18,12 @@ class Challenge:
         self.file_path = file_path
         self.turn = int(turn)
         self.attempts = 0
+        self.i = 1
+        self.round_checker = 1
+        self.bot_num = random.randint(1,100)
+        self.math_q = []
+        self.math_a = []
+        self.num6 = 0         
         
         #root/window
         self.root = Tk()
@@ -31,6 +38,8 @@ class Challenge:
         self.num_font = tkfont.Font(family="Century Gothic", size=24)
         self.label_font = tkfont.Font(family="Century Gothic", size=16)
         self.challenge_font = tkfont.Font(family="Century Gothic", size=20)
+        self.text_font = tkfont.Font(family="Century Gothic", size=14)
+        self.combo_font = tkfont.Font(family="Century Gothic", size=20)
         self.error_font = tkfont.Font(family="Century Gothic", size=12)
         self.button_font = tkfont.Font(family="Tahoma", size=16, weight="bold")        
         
@@ -176,24 +185,28 @@ class Challenge:
         challenge_label = Label(frame, text= "", font=self.label_font, 
                                 justify="left", bg="#ffe6c9")
         
-        challenge_label.grid(row=3, column=0, columnspan=4, pady=20, padx=20)
+        challenge_label.grid(row=3, column=1, columnspan=4, pady=20, padx=(125,0))
         
         #checker label
         checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
-        checker_label.grid(row=4, column=0, columnspan=4)
+        checker_label.grid(row=4, column=1, columnspan=4,padx=(250,0))
+        
+        #hint label
+        hint_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        hint_label.grid(row=5, column=1, columnspan=4,padx=(250,0))        
         
         #answer label and entry
         answer_label = Label(frame, text="Answer:", bg="#ffe6c9", font=self.label_font)
-        answer_label.grid(row=5, column=1,pady=20,padx=(250,0))
+        answer_label.grid(row=6, column=1,pady=20,padx=(250,0))
         
         answer_entry = Entry(frame, bg="#ffe6c9", font=self.label_font)
-        answer_entry.grid(row=5, column=2, sticky="we",pady=20)
+        answer_entry.grid(row=6, column=2, sticky="we",pady=20)
         
         #button
         checker_button = Button(frame, text="Start",height=3, width=30, font = self.button_font, 
                                 relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
-                                command=lambda: self.challenge2(answer_entry, challenge_label, checker_button, checker_label))
-        checker_button.grid(row=6, column=1, columnspan=2, sticky="we", pady=20, padx=(250,0))
+                                command=lambda: self.challenge2(answer_entry, challenge_label, checker_button, checker_label, hint_label))
+        checker_button.grid(row=7, column=1, columnspan=2, sticky="we", pady=20, padx=(250,0))
         
         return frame 
     
@@ -206,44 +219,183 @@ class Challenge:
         
         #title label
         title_label = Label(frame, text = "Challenge 3", bg="#ffe6c9", justify="center", font=self.challenge_font)
-        title_label.grid(row=2, column=0, columnspan=4, pady=20, padx=(250,0))
+        title_label.grid(row=2, column=0, columnspan=4, pady=20, padx=(150,0))
         
         #challenge label
-        challenge_label = Label(frame, text= "", font=self.label_font, 
+        challenge_label = Label(frame, text= "", font=self.text_font, 
                                 justify="left", bg="#ffe6c9")
-        
-        challenge_label.grid(row=3, column=0, columnspan=4, pady=20, padx=20)
+        challenge_label.grid(row=3, column=0, columnspan=4, pady=20, padx=(100,0))
         
         #checker label
         checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
-        checker_label.grid(row=4, column=0, columnspan=4)
+        checker_label.grid(row=4, column=1, columnspan=4)
         
         #answer label and entry
         answer_label = Label(frame, text="Answer:", bg="#ffe6c9", font=self.label_font)
-        answer_label.grid(row=5, column=1,pady=20,padx=(250,0))
+        answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
         
         answer_entry = Entry(frame, bg="#ffe6c9", font=self.label_font)
-        answer_entry.grid(row=5, column=2, sticky="we",pady=20)
+        answer_entry.grid(row=5, column=1, sticky="w",pady=20)
         
         #button
         checker_button = Button(frame, text="Start",height=3, width=30, font = self.button_font, 
                                 relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
-                                command=lambda: self.challenge3(answer_entry, challenge_label, checker_button, checker_label))
-        checker_button.grid(row=6, column=1, columnspan=2, sticky="we", pady=20, padx=(250,0))
+                                command=lambda: self.challenge3(challenge_label, answer_entry, checker_button, checker_label, answer_label))
+        checker_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
         
         return frame 
     
     def create_challenge5(self):
-        pass
+        '''chapter five challenge'''
+        #frame
+        frame = Frame(self.container,  bg="#ffe6c9", highlightthickness=5,
+                      highlightbackground="#ceb79b", highlightcolor="#ceb79b")
+        frame.grid(row=1, column=0, sticky="nsew", pady=20, padx=20)
+        
+        #fonts 
+        frame.option_add("*TCombobox*Listbox*Font", self.combo_font)
+        
+        #title label
+        title_label = Label(frame, text = "Challenge 5", bg="#ffe6c9", justify="center", font=self.challenge_font)
+        title_label.grid(row=2, column=0, columnspan=3, pady=20, padx=(150,0))
+        
+        #challenge label
+        challenge_label = Label(frame, text= "", font=self.label_font, 
+                                justify="left", bg="#ffe6c9")
+        challenge_label.grid(row=3, column=1, columnspan=3, pady=20, padx=(100,0))
+        
+        #answer combo box
+        combo_box = ttk.Combobox(frame, state="readonly", font=self.combo_font, 
+                                 values=["rock", "paper", "scissors", "lizard", "spock"])
+        combo_box.grid(row=4, column=1, pady =20, padx=(200,0))
+        combo_box.set("Select an option")
+        
+        #button
+        checker_button = Button(frame, text="Confirm Choice",height=3, width=30, font = self.button_font, 
+                                relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                command=lambda: self.challenge5(challenge_label, combo_box))
+        checker_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
+        
+        return frame
     
     def create_challenge6_1(self):
-        pass
+        '''chapter six, challenge one'''
+        #frame
+        frame = Frame(self.container,  bg="#ffe6c9", highlightthickness=5,
+                      highlightbackground="#ceb79b", highlightcolor="#ceb79b")
+        frame.grid(row=1, column=0, sticky="nsew", pady=20, padx=20)
+        
+        #title label
+        title_label = Label(frame, text = "Challenge 6.1", bg="#ffe6c9", 
+                            justify="center", font=self.challenge_font)
+        title_label.grid(row=2, column=0, columnspan=4, pady=20, padx=(150,0))
+        
+        #challenge label
+        challenge_label = Label(frame, text= "", font=self.text_font, 
+                                justify="left", bg="#ffe6c9")
+        challenge_label.grid(row=3, column=0, columnspan=4, pady=20, padx=(100,0))
+        
+        #checker label
+        checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        checker_label.grid(row=4, column=1, columnspan=4)
+        
+        #answer label and entry
+        answer_label = Label(frame, text="Enter Number:", bg="#ffe6c9", font=self.label_font)
+        answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+        
+        answer_entry = Entry(frame, bg="#ffe6c9", font=self.label_font, width=10)
+        answer_entry.grid(row=5, column=1, sticky="w",pady=20)
+        
+        #button
+        checker_button = Button(frame, text="Check",height=3, width=30, font = self.button_font, 
+                                relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                command=lambda: self.challenge6_1(challenge_label, answer_entry))
+        checker_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
+        
+        return frame 
     
     def create_challenge6_2(self):
-        pass
+        '''chapter six, challenge two'''
+        #frame
+        frame = Frame(self.container,  bg="#ffe6c9", highlightthickness=5,
+                      highlightbackground="#ceb79b", highlightcolor="#ceb79b")
+        frame.grid(row=1, column=0, sticky="nsew", pady=20, padx=20)
+        
+        #title label
+        title_label = Label(frame, text = "Challenge 6.2", bg="#ffe6c9", 
+                            justify="center", font=self.challenge_font)
+        title_label.grid(row=2, column=0, columnspan=4, pady=20, padx=(150,0))
+        
+        #challenge label
+        challenge_label = Label(frame, text= "", font=self.text_font, 
+                                justify="left", bg="#ffe6c9")
+        challenge_label.grid(row=3, column=0, columnspan=4, pady=20, padx=(100,0))
+        
+        #checker label
+        checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        checker_label.grid(row=4, column=0, columnspan=4, padx=(150,0))
+        
+        #answer label and entry
+        answer_label = Label(frame, text="Enter Number:", bg="#ffe6c9", font=self.label_font)
+        answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+        
+        answer_entry = Entry(frame, bg="#ffe6c9", font=self.label_font, width=10)
+        answer_entry.grid(row=5, column=1, sticky="w",pady=20)
+        
+        answer_label.grid_remove()
+        answer_entry.grid_remove()
+        
+        #buttons
+        checker_button = Button(frame, text="Check",height=3, width=30, font = self.button_font, 
+                                relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                command=lambda: self.challenge6_2_check(answer_label, checker_label, answer_entry, start_button))
+        checker_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
+        
+        start_button = Button(frame, text="Start",height=3, width=30, font = self.button_font, 
+                                relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                command=lambda: self.challenge6_2_start(start_button, answer_label, answer_entry))
+        start_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))        
+        
+        return frame 
     
     def create_challenge7(self):
-        pass
+        '''chapter seven challenge'''
+        #frame
+        frame = Frame(self.container,  bg="#ffe6c9", highlightthickness=5,
+                      highlightbackground="#ceb79b", highlightcolor="#ceb79b")
+        frame.grid(row=1, column=0, sticky="nsew", pady=20, padx=20)
+        
+        #title label
+        title_label = Label(frame, text = "Challenge 7", bg="#ffe6c9", 
+                            justify="center", font=self.challenge_font)
+        title_label.grid(row=2, column=0, columnspan=3, pady=20, padx=(150,0))
+        
+        #challenge label
+        challenge_label = Label(frame, text= "", font=self.label_font, 
+                                justify="left", bg="#ffe6c9")
+        challenge_label.grid(row=3, column=1, columnspan=3, pady=20, padx=(100,0))
+        
+        #checker label
+        checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        checker_label.grid(row=4, column=0, columnspan=4, padx=(150,0))
+        
+        #buttons
+        choice = 1
+        button_choices = []
+        
+        for i in range(4):
+            choice_button = Button(frame, text="Confirm Choice",height=2, width=15, font = self.button_font, 
+                                    relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                    command=lambda: self.challenge7_choice(i, button_choices, checker_label, challenge_label, start_button))
+            choice += 1
+            button_choices.append(choice_button)
+        
+        start_button = Button(frame, text="Start",height=3, width=30, font = self.button_font, 
+                                    relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                    command=lambda: self.challenge7_start(button_choices, start_button, challenge_label))
+        start_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))        
+            
+        return frame
     
     def create_challenge8(self):
         pass
@@ -310,12 +462,10 @@ class Challenge:
         #clearing the entry
         answer_text.delete(0, END)             
     
-    def challenge2(self, answer_text, label, button, checker): #issue
+    def challenge2(self, answer_text, label, button, checker, hint):
         '''challenge 2 checker'''
         #variables
-        clear = 0
         user_answer = answer_text.get()
-        
         
         if self.turn == 1:
                 #riddle one 
@@ -331,18 +481,27 @@ class Challenge:
                     #checks if user answer and answer are same
                     checker.config(text = "Correct Answer")
                     self.root.after(1500, self.root.destroy)
+                    hint.config(text="")
                 elif user_answer.lower() != answer1 and user_answer != "":
                     #adds attempts if wrong 
                     checker.config(text="Wrong Answer")
-                    self.attempts += 1   
+                    self.attempts += 1 
+                    if self.attempts >= 5:
+                        hint1 = list(answer1)
+                        if self.i == len(answer1):
+                            hint.config(text=f"Hint: answer is {answer1}")
+                        else:
+                            hint.config(text=f"Hint: answer starts with {hint1[0:self.i]}")
+                            self.i += 1                       
                 else:
                     pass
+                   
                     
         elif self.turn == 2:
                 #riddle two
                 answer2 = "an absence"
                 button.config(text="Check")
-                label.config(text=""""
+                label.config(text="""
                 I tick but make no sound,
                 I’m neither lost nor found.
                 I measure time through lack,
@@ -352,10 +511,18 @@ class Challenge:
                     #checks if user answer and answer are same
                     checker.config(text = "Correct Answer")
                     self.root.after(1500, self.root.destroy)
+                    hint.config(text="")
                 elif user_answer.lower() != answer2 and user_answer != "":
                     #adds attempts if wrong 
                     checker.config(text="Wrong Answer")
-                    self.attempts += 1   
+                    self.attempts += 1  
+                    if self.attempts >= 5:
+                        hint2 = list(answer2)
+                        if self.i == len(answer2):
+                            hint.config(text=f"Hint: answer is {answer2}")
+                        else:
+                            hint.config(text=f"Hint: answer starts with {hint2[0:self.i]}")
+                            self.i += 1                       
                 else:
                     pass
                     
@@ -374,10 +541,18 @@ class Challenge:
                     #checks if user answer and answer are same
                     checker.config(text = "Correct Answer")
                     self.root.after(1500, self.root.destroy)
+                    hint.config(text="")
                 elif user_answer.lower() != answer3 and user_answer != "":
                     #adds attempts if wrong 
                     checker.config(text="Wrong Answer")
-                    self.attempts += 1   
+                    self.attempts += 1  
+                    if self.attempts >= 5:
+                        hint3 = list(answer3)
+                        if self.i == len(answer3):
+                            hint.config(text=f"Hint: answer is {answer3}")
+                        else:
+                            hint.config(text=f"Hint: answer starts with {hint3[0:self.i]}")
+                            self.i += 1                      
                 else:
                     pass
         else:
@@ -396,7 +571,13 @@ class Challenge:
         
         if self.round_checker == 1:
             #first set
-            print("""
+            #setting it up
+            answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+            answer_text.grid(row=5, column=1, sticky="w",pady=20)
+            checker_label.config(text="")
+            button.config(text="Go Down Route")
+            #printing everything 
+            label.config(text="""
                     1. A knight missing its heart, silent and unmoving.
                     2. A scholar chained to burning books, eyes closed in contemplation.
                     3. A child with eyes that blinked stars, holding a feather soaked in ink.
@@ -405,87 +586,280 @@ class Challenge:
                     “Take my path and lose your pride.”
                     “Take mine and lose your name.”
                     “Take mine and face the truth that breaks.”
-                       """)            
-            
-            if answer != 3:
-                #wrong choice
-                print("""
+                       """)
+            #incase of accidental clicks or start buttons/continue 
+            if answer == "":
+                pass
+            elif int(answer) == 3:
+                #if the answer is correct
+                checker_label.config(text="Correct Answer")
+                button.config(text="Continue")
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.round_checker = 2 
+                label.config(text="Lysander arrives at another set of doors, this one has five doors.")
+            else: 
+                #if the answer is wrong 
+                self.attempts += 1 
+                checker_label.config(text="Incorrect")
+                button.config(text="Continue")
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.round_checker = 1  
+                label.config(text="""
                 Lysander is lead to a narrow corridor, filled with continous twists and turns
                 until they finally see a light at the end of the tunnel. They exit 
                 this hours long maze they've trekked through to see they have 
                 arrived at the same three statues.
                 """)
-                self.attempt += 1
-                
-            elif answer == 3:
-                #correct choice continues on
-                choices.append(choice1)
-                print(""" 
-                Lysander arrives at another set of doors, this one has five doors.
-                They look at the moving pictures featured on the doors and recognise them 
-                as the five stages of grief: """)
-                
+        
         elif self.round_checker == 2:
-                ("""
-                1. Denial - depicting as a man aggressively shaking his head refusing to even look at Lysander
-                2. Anger - depicting as a woman screaming towards Lysander
-                3. Bargaining - depicting a person on their knees with their hands clasped praying for something 
-                4. Depression - depicting a man with his back against a wall hunching over a picture frame
-                5. Acceptance - depicting a woman standing at a gravestone, she smiling sadly
-                """)            
-                
-                if choice2 != 4:
-                    #wrong choice
-                    print("""
+            #second set
+            #setting everything up
+            answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+            answer_text.grid(row=5, column=1, sticky="w",pady=20)
+            checker_label.config(text="")
+            button.config(text="Go Down Route")
+            #printing the challenge
+            label.config(text="""
+                1. Denial   -   depicting as a man aggressively shaking 
+                                his head refusing to even look at Lysander
+                2. Anger    -   depicting as a woman screaming towards Lysander
+                3. Bargaining - depicting a person on their knees with their 
+                                hands clasped praying for something 
+                4. Depression - depicting a man with his back against a wall 
+                                hunching over a picture frame
+                5. Acceptance - depicting a woman standing at a gravestone, 
+                                she smiling sadly
+                """)
+            #incase of misclicks or continue 
+            if answer == "":
+                pass
+            elif int(answer) == 4:
+                #if answer is correct
+                checker_label.config(text="Correct Answer")
+                button.config(text="Continue")
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.round_checker = 3 
+                label.config(text="""
+                Lysander arrives in a circular room. The room had 7 doors when
+                you excluded the door Lysander had just entered from.""")
+            else: 
+                #if answer is wrong 
+                self.attempts += 1 
+                checker_label.config(text="Incorrect")
+                button.config(text="Continue")
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.round_checker = 1  
+                label.config(text="""
                 Lysander is lead to a narrow corridor, filled with continous twists and turns
                 until they finally see a light at the end of the tunnel. They exit 
                 this hours long maze they've trekked through to see they have 
                 arrived at the same three statues.
                 """)
-                    attempt += 1 
-                    
-                elif choice2 == 4:
-                    #correct choice and continues on
-                    choices.append(choice2)
-                    print("""
-                        Lysander arrives in a circular room. The room had 7 doors when
-                        you excluded the door Lysander had just entered from. Each door each had
-                        just one word written on it.
-                                1. Pride
-                                2. Greed
-                                3. Wrath
-                                4. Envy
-                                5. Lust
-                                6. Gluttony
-                                7. Sloth
-                                       """) 
-                    
-                    choice3 = int(input("Choice: "))
-                    
-                    if choice3 != 6:
-                        #wrong choice
-                        print("""
-                    Lysander is lead to a narrow corridor, filled with continous twists and turns
-                    until they finally see a light at the end of the tunnel. They exit 
-                    this hours long maze they've trekked through to see they have 
-                    arrived at the same three statues.
-                    """)
-                        attempt += 1 
-                    
-                    elif choice3 == 6:
-                        #correct choice and continues on 
-                        choices.append(choice3)
+                
+        elif self.round_checker == 3:
+            #last set
+            #setting everything up
+            answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+            answer_text.grid(row=5, column=1, sticky="w",pady=20)
+            checker_label.config(text="")
+            button.config(text="Go Down Route")
+            #printing the challenge text
+            label.config(text="""
+            Each door each had just one word written on it.
+                    1. Pride
+                    2. Greed
+                    3. Wrath
+                    4. Envy
+                    5. Lust
+                    6. Gluttony
+                    7. Sloth
+                    """)
+            #in case of continue or misclicks 
+            if answer == "":
+                pass
+            elif int(answer) == 6:
+                #if answer is correct
+                checker_label.config(text="Correct Answer")
+                button.grid_remove()
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.root.after(1500, self.root.destroy)
+            else: 
+                #if answer is wrong 
+                self.attempts += 1 
+                checker_label.config(text="Incorrect")
+                button.config(text="Continue")
+                answer_text.grid_remove()
+                answer_label.grid_remove()
+                self.round_checker = 1  
+                label.config(text="""
+                Lysander is lead to a narrow corridor, filled with continous twists and turns
+                until they finally see a light at the end of the tunnel. They exit 
+                this hours long maze they've trekked through to see they have 
+                arrived at the same three statues.
+                """)       
+                
+        #clearing the entry
+        answer_text.delete(0, END)         
     
-    def challenge5(self):
-        pass
+    def challenge5(self, label, combo):
+        options = ["rock", "paper", "scissors", "lizard", "spock"]
+        bot = options[random.randint(0,4)]
+        user = combo.get()
+        
+        #if statements for what beats what 
+        if bot == "rock" and (user == "scissors" or user == "lizard"):
+            self.attempts += 1 
+            label.config(text="Bot wins")
+        elif bot == "paper" and (user == "rock" or user == "spock"):
+            self.attempts += 1 
+            label.config(text="Bot wins")
+        elif bot == "scissors" and (user == "paper" or user == "lizard"):
+            self.attempts += 1 
+            label.config(text="Bot wins")
+        elif bot == "lizard" and (user == "paper" or user == "spock"):
+            self.attempts += 1 
+            label.config(text="Bot wins")
+        elif bot == "spock" and (user == "rock" or user == "scissors"):
+            self.attempts += 1 
+            label.config(text="Bot wins")
+        elif user == "Select an option":
+            pass
+        else: 
+            label.config(text="Victory!")  
+            self.root.after(1500, self.root.destroy)
     
-    def challenge6_1(self):
-        pass
+    def challenge6_1(self, label, answer_text):
+        #getting the user input 
+        user = answer_text.get()
+        user = int(user)
+        
+        if user != self.bot_num:
+            #checking if the incorrect num is higher or lower 
+            self.attempts += 1 
+            if user > self.bot_num:
+                label.config(text="Lower")
+            elif user < self.bot_num:
+                label.config(text="Higher")
+        elif user == self.bot_num:
+            #if correct 
+            label.config(text="Correct")
+            self.root.after(1500, self.root.destroy)
+        
+        #clearing the entry
+        answer_text.delete(0, END)  
+        
+    def challenge6_2_start(self, button, answer_label, answer_entry):
+        self.start_time = time.time()
+        button.grid_remove()
+        self.math_q = []
+        self.math_a = []
+        self.num6 = 0 
+        
+        with open(self.file_path) as file:
+            #opens the file 
+            questions = json.load(file)
+            for chapter, challenge in questions.items():
+                #finds the correct set for this challenge
+                if chapter == "ch6.2":
+                    maths = challenge
+        
+        self.math_q = random.sample(list(maths.keys()), 10)
+        self.math_a = [maths[q] for q in self.math_q]
+        
+        answer_label.config(text=self.math_q[self.num6])
+        
+        answer_label.grid(row=5, column=0,pady=20,padx=(250,0), sticky="w")
+        answer_entry.grid(row=5, column=1, sticky="w",pady=20)        
     
-    def challenge6_2(self):
-        pass
+    def challenge6_2_check(self, label, correct, answer_text, start_button):
+        answer = answer_text.get()
+        answer = int(answer)
+        
+        if self.num6 == 10:
+            #reached the end of question
+            pass
+        elif answer == self.math_a[self.num6]:
+            #if answer is correct
+            self.num6 += 1
+            correct.config(text="Correct")
+        else:
+            self.attempts += 1 
+            correct.config(text="Wrong Answer")
+        
+        #clearing the entry
+        answer_text.delete(0, END)         
+        
+        if self.num6 == 10:
+            end_time = time.time()
+            total_time = end_time - self.start_time
+            if total_time < 60:
+                #if less than 60 seconds
+                correct.config(text="You Win")
+                label.grid_remove()
+                answer_text.grid_remove()
+                self.root.after(1500, self.root.destroy) 
+            else:
+                #doesn't beat the needed time 
+                correct.config(text="Try Again")
+                start_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
+                label.grid_remove()
+                answer_text.grid_remove()
+        else:
+            #continue onto next question if not done 
+            label.config(text=self.math_q[self.num6])
     
-    def challenge7(self):
+    def challenge7_start(self, button_lists, start_button, label):
+        #variables
+        self.score = 0
+        self.num7 = 0 
+        self.question7 = []
+        self.answer7 = []
+        self.choices7 = []
+        
+        #removing start button
+        start_button.grid_remove()
+        
+        #read json file 
+        with open(self.file_path) as f:
+            file = json.load(f)
+            for key, value in file.items():
+                if key == "ch7":
+                    quiz = value
+        
+        for key, value in quiz.items():
+            q = value["question"]
+            c = value["choices"]
+            a = value["answer"]
+            
+            #shuffle choices
+            random.shuffle(c)
+            
+            #add to lists
+            self.question7.append(q)
+            self.answer7.append(a)
+            self.choices7.append(c)
+            
+        first_set = self.choices7[self.num7]
+        choice_text = 0
+        i = 0 
+        
+        for btn in button_lists:
+            row_num = i//2 
+            col_num = i%2
+            btn.grid(row=(row_num+5), column=col_num, padx=10, pady=10, sticky="we")
+            btn.config(text=first_set[choice_text])
+            choice_text += 1
+            i += 1
+        
+        question = self.question7[self.num7]
+        label.config(text=question)   
+    
+    def challenge7_choice(self):
         pass
     
     def challenge8(self):
@@ -507,20 +881,20 @@ NUMBERS = ["1.1", "1.2", "2", "2", "2", "3", "5", "6.1", "6.2", "7", "8"]
 
 turn = 1 
 
-#chal = Challenge(CHALLENGE_FILE_PATH, turn)
-#frame = chal.find_frame(NUMBERS[3])
-#chal.show_frame(frame)
-#chal.run()
+chal = Challenge(CHALLENGE_FILE_PATH, turn)
+frame = chal.find_frame(NUMBERS[9])
+chal.show_frame(frame)
+chal.run()
 
-#attempts = chal.get_attempts()
-#print(attempts)
+attempts = chal.get_attempts()
+print(attempts)
 
-for i in range(3):
-    chal = Challenge(CHALLENGE_FILE_PATH, turn)
-    frame = chal.find_frame(NUMBERS[2])
-    chal.show_frame(frame)
-    chal.run()
+#for i in range(3):
+    #chal = Challenge(CHALLENGE_FILE_PATH, turn)
+    #frame = chal.find_frame(NUMBERS[2])
+    #chal.show_frame(frame)
+    #chal.run()
     
-    turn += 1 
-    attempts = chal.get_attempts()
-    print(attempts)    
+    #turn += 1 
+    #attempts = chal.get_attempts()
+    #print(attempts)    
