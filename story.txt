@@ -1,43 +1,71 @@
 ﻿~~
 Chapter 1: Veymor, the Dark Forest
 ~Prologue~
-Once, in the realm of Thalara—where the mountains whispered secrets to the stars—there wandered a clever, irreverent wayfarer named Lysander. Their charm often glittered louder than their wisdom, and their tongue raced ahead of their heart.
-One twilight, beneath a wind-bent tree, Lysander met an angel whose wings shimmered in the moonlight. Mocking them with a careless jibe, Lysander laughed: “Nice wings—stitched from moths, were they?”
-The angel’s eyes dimmed with sorrow. “Words carry weight, mortal. Yours shall anchor your soul.”
-A curse surged through Lysander’s chest. In seven days, they would unravel—unless they reached Wizard Aldric’s tower located at the world’s edge.
+Once, in the realm of Thalara—where the mountains whispered secrets 
+to the stars—there wandered a clever, irreverent wayfarer named Lysander. 
+Their charm often glittered louder than their wisdom, and their tongue 
+raced ahead of their heart.One twilight, beneath a wind-bent tree, 
+Lysander met an angel whose wings shimmered in the moonlight. 
+Mocking them with a careless jibe, Lysander laughed: 
+“Nice wings—stitched from moths, were they?”
+The angel’s eyes dimmed with sorrow. 
+“Words carry weight, mortal. Yours shall anchor your soul.”
+A curse surged through Lysander’s chest. In seven days, they would unravel—unless 
+they reached Wizard Aldric’s tower located at the world’s edge.
 So began their journey.
 ~Forest of Veymor~
-In the forest of Veymor, trees bent to whisper forgotten names. Moss glowed beneath footfalls. Illusions hunted truth.
-There, Lysander met Thim, a child made of bark. The wind had stolen Thim’s name, and with it, their form. To restore it, Lysander ventured deep into the Grove of Lost Things.
-Among carnivorous daisies and whispering shadows, Lysander retrieved Thim’s name by decoding leafglyphs carved onto a memory stone. Upon return, Thim smiled for the first time in years and gifted them the Compass of Longing, pointing not to places—but to what the soul needed most.
+In the forest of Veymor, trees bent to whisper forgotten names. 
+Moss glowed beneath footfalls. 
+Illusions hunted truth.
+There, Lysander met Thim, a child made of bark. The wind 
+had stolen Thim’s name, and with it, their form. To restore it, 
+Lysander ventured deep into the Grove of Lost Things.
+Among carnivorous daisies and whispering shadows, Lysander retrieved Thim’s name by 
+decoding leafglyphs carved onto a memory stone. Upon return, 
+Thim smiled for the first time in years and gifted them the Compass of Longing, 
+pointing not to places—but to what the soul needed most.
 “Trust it,” Thim whispered. “But only if you dare to know yourself.”
-~Echoing Hollows and Whisperleaf Groves~
-With the Compass of Longing pulsing softly in their satchel, Lysander ventured deeper into Veymor. The trees here grew impossibly tall, their branches knotted with glowing fungi and the occasional snarevine—plants that mimicked lost voices. Sometimes, those voices wept. Other times, they laughed just like someone Lysander used to know.
-As the forest thickened, Lysander stumbled upon the Whisperleaf Grove, where every leaf reflected an old memory. Touching one, they saw themselves—young and brash—standing on a stage, soaking in applause for a poem they hadn’t written.
-The leaves rustled.
+~The Echoing Hollows~
+With the Compass of Longing pulsing softly in their satchel, 
+Lysander ventured deeper into Veymor. The trees here grew impossibly tall, 
+their branches knotted with glowing fungi and the occasional snarevine—plants 
+that mimicked lost voices. Sometimes, those voices wept. Other times, 
+they laughed just like someone Lysander used to know.As the forest thickened, 
+Lysander stumbled upon the Whisperleaf Grove, where every leaf reflected an old 
+memory. Touching one, they saw themselves—young and brash—standing on a stage, 
+soaking in applause for a poem they hadn’t written.The leaves rustled.
 “The truth echoes even when swallowed.”
 They turned away. “Not now.”
 ~Meeting the Sable-Faced Guide~
-From the mists emerged a figure cloaked in feathers—Kaelin, a shadow elf bound to Veymor since breaking a vow of silence. Her face was etched with runes that revealed only truths.
+From the mists emerged a figure cloaked in feathers—Kaelin, 
+a shadow elf bound to Veymor since breaking a vow of silence. 
+Her face was etched with runes that revealed only truths.
 “I know what you seek,” Kaelin whispered. “But the forest gives nothing for free.”
-Kaelin offered guidance—but first, a test of memory. Beneath a weeping willow shaped like a giant’s hand, she asked Lysander to summon the sound of their own regret.
-They breathed.
-Spoken softly: “I used charm where I owed kindness. I took credit, and silence became my shelter.”
+Kaelin offered guidance—but first, a test of memory. Beneath a 
+weeping willow shaped like a giant’s hand, she asked Lysander to 
+summon the sound of their own regret. They breathed.
+Spoken softly:
+“I used charm where I owed kindness. I took credit, and silence became my shelter.” 
 The wind changed. Kaelin smiled. “You’ve earned passage.”
-She gifted Lysander a vial of Echodew, which could reveal illusions when poured on stone.
+She gifted Lysander a vial of Echodew, which could reveal illusions 
+when poured on stone.
 ~The Reflection Trial~
-Kaelin led them to a shallow, moonlit pool nestled between ancient roots. “Step in,” she said, “but know this: the pool shows not what you are—but what others have seen in you.”
+Kaelin led them to a shallow, moonlit pool nestled between ancient roots. 
+“Step in,” she said, “but know this: the pool shows not 
+what you are—but what others have seen in you.”
 Lysander hesitated. The curse pulsed like a heartbeat. Then they stepped in.
 Reflections formed:
 * A beggar smiling at a coin Lysander once dropped casually.
 * An old rival, speaking of Lysander’s poetry with grudging respect.
 * A lover, weeping after Lysander walked away without saying goodbye.
-One final image: the angel—wings outstretched, eyes filled with sorrow, whispering, “Your words stitched grief into light.”
+One final image: the angel—wings outstretched, eyes filled with sorrow, whispering, 
+“Your words stitched grief into light.”
 Lysander fell to their knees. “I didn’t mean to wound you.”
 The pool stilled. A feather floated to the surface.
 Kaelin nodded. “You’ll need that.”
 ~The Shadow Crescent~
-Just beyond the pool lay a crescent-shaped clearing known as the Shadowward Rise. Trees didn’t grow here. The ground was layered in ash.
+Just beyond the pool lay a crescent-shaped clearing known as the Shadowward Rise. 
+Trees didn’t grow here. The ground was layered in ash.
 Lysander found three figures seated around a dim campfire:
 * A bard who had forgotten every song.
 * A knight who could no longer lift their sword.
@@ -45,54 +73,74 @@ Lysander found three figures seated around a dim campfire:
 Each offered a story if Lysander could answer one question:
 “What is worth more than truth but cheaper than lies?”
 After a long pause, Lysander whispered, “Understanding.”
-The figures bowed, vanishing into sparks. One left behind a token—The Locket of the Unsaid—which warmed when someone nearby withheld honesty.
+The figures bowed, vanishing into sparks. One left behind 
+a token—The Locket of the Unsaid—which 
+warmed when someone nearby withheld honesty.
 The forest grew silent, but not threatening.
 ~The Morning~
-As dawn broke beyond Veymor’s edge, Lysander stepped into sunlight softened by dew. The Compass of Longing turned west. Their soul—still under siege—felt less frayed.
+As dawn broke beyond Veymor’s edge, Lysander stepped into sunlight softened by dew. 
+The Compass of Longing turned west. Their soul—still under siege—felt less frayed.
 Thim, Kaelin, and the whispering forest had left marks on them—not scars, but seeds.
-Beyond the next ridge lay the Bridge of Groan, where riddles brewed beneath stone skin and a poetic crow had been waiting years to sing again…
+Beyond the next ridge lay the Bridge of Groan, where riddles brewed 
+beneath stone skin and a poetic crow had been waiting years to sing again…
 ~~
-Chapter 2: The Troll and the Bridge of Groan
+Chapter 2: The Bridge of Groan
 ~Grumblechasm~
 Where riddles roam wild and memories wear feathers
-Lysander stood at the edge of Grumblechasm, a gorge carved by forgotten grief. A twisted stone bridge arched over it—its weathered surface humming softly, as if murmuring secrets to anyone foolish enough to listen. Lightning flashed far beyond the hills, illuminating a hulking silhouette seated atop the arch.
+Lysander stood at the edge of Grumblechasm, a gorge carved by forgotten grief. 
+A twisted stone bridge arched over it—its weathered surface humming softly, 
+as if murmuring secrets to anyone foolish enough to listen. Lightning flashed 
+far beyond the hills, illuminating a hulking silhouette seated atop the arch.
 Grumbrot, the Bridge Troll.
-He was layered in moss and chipped runes, shaped like an overgrown boulder, but his eyes flickered with the sharpness of a disappointed librarian. Around him, smoke rose from clay pots filled with bubbling syllables—words being cooked for his next riddle.
+He was layered in moss and chipped runes, shaped like an overgrown boulder, 
+but his eyes flickered with the sharpness of a disappointed librarian. 
+Around him, smoke rose from clay pots filled with bubbling syllables—words 
+being cooked for his next riddle.
 Lysander approached cautiously. The Compass of Longing pulsed.
 Grumbrot grunted. “Another wanderer. Let me guess. Cursed?”
 Lysander sighed. “Wings and words. I mocked an angel. Now I’m unraveling.”
 “Classic,” the troll muttered. “No respect for flight these days.”
 ~Terms of Passage~
-Grumbrot jabbed a thumb toward the chasm. “Three riddles. Answer true, and the bridge will hold. Fail, and it becomes a metaphor.”
+Grumbrot jabbed a thumb toward the chasm. “Three riddles. Answer true, 
+and the bridge will hold. Fail, and it becomes a metaphor.”
 “Metaphor?”
 Grumbrot smiled grimly. “Your fall will be poetic.”
-Before Lysander could protest, a black-feathered crow fluttered onto the bridge. He wore a tiny satchel slung over one shoulder and cleared his throat with exaggerated dignity.
+Before Lysander could protest, a black-feathered crow fluttered onto the bridge. 
+He wore a tiny satchel slung over one shoulder and cleared his 
+throat with exaggerated dignity.
 “Ah, a challenger! Marvelous. I’m Percival Quill, poet-in-residence of Groan Bridge, 
 cursed to rhyme until death—it only irks just a smidge.”
 Grumbrot sighed. “He helps write the riddles”
 Percival winked at Lysander. “Try not to die. I’m composing an ode to your eye.”
 ~Riddle One: The Hollow Recipe~
-Grumbrot drew out a scroll, steam rising from its corners. “First riddle. Embedded in a recipe, passed down through fire-singers. Listen well.”
+Grumbrot drew out a scroll, steam rising from its corners. 
+“First riddle. 
+Embedded in a recipe, passed down through fire-singers. Listen well.”
 “Start with silence in a heavy bowl,
 Stir with shadows from a sleepless soul.
 Sprinkle years lost to shame and pride—
 Then bake until the truth can’t hide.
 Tell me, wanderer, what is it I make?”
-Lysander closed their eyes. Each line held weight. Silence, shadows, shame… It sounded painfully familiar. 
+Lysander closed their eyes. Each line held weight. Silence, shadows, shame… 
+It sounded painfully familiar. 
 They whispered: “Regret.”
 Grumbrot nodded slowly. The bridge stones pulsed.
 “Correct. One mistake down, two to go.”
 ~Riddle Two: The Invisible Clock~
-Percival puffed his chest. “This one’s mine. A logic loop wrapped in words like twine. You’ll die on my line.”
+Percival puffed his chest. “This one’s mine. 
+A logic loop wrapped in words like twine. You’ll die on my line.”
 He chirped theatrically:
 “I tick but make no sound,
 I’m neither lost nor found.
 I measure time through lack,
 Yet wear no numbered plaque.
 What am I?”
-Lysander paced. They thought of waiting rooms, dreams, and their own curse’s ticking deadline.
+Lysander paced. They thought of waiting rooms, dreams, and their 
+own curse’s ticking deadline.
 “…An absence,” they said. “You are a moment never lived.”
-Percival blinked. “I was going to accept ‘a forgotten hour,’ but I daresay your answer may tower over ours.”
+Percival blinked. 
+“I was going to accept ‘a forgotten hour,’ but I daresay your answer 
+may tower over ours.”
 Grumbrot frowned. “Dramatic feathered loaf…”
 Percival bowed. “Two down. One left.”
 ~Riddle Three: A Feather’s Burden~
@@ -105,51 +153,76 @@ I wound, though soft and light.
 I am part of pain and beauty both.
 What am I?”
 Lysander swallowed.
-They thought of the angel’s wings. Of their careless remarks. Of how feathers can carry gods and break hearts.
+They thought of the angel’s wings. Of their careless remarks. 
+Of how feathers can carry gods and break hearts.
 They said: “A word.”
 Silence followed.
-Then every pot around Grumbrot exploded in smoke. Percival squawked in joy. “Spectacular!”
+Then every pot around Grumbrot exploded in smoke. Percival squawked in joy. 
+“Spectacular!”
 Grumbrot sighed. “They always get the poetic one.”
 ~The Toll Exchanged~
-Grumbrot waved his mossy arm, and the bridge glowed with golden light. Lysander stepped forward, but he raised one finger.
+Grumbrot waved his mossy arm, and the bridge glowed with golden light. 
+Lysander stepped forward, but he raised one finger.
 “You answered. But crossing still requires a toll.”
 “Of what?”
 “Emotion,” Grumbrot said. “From your past. I take a memory, you choose which.”
-Percival fluttered closer. “Make it a juicy portrayal! A betrayal? A forbidden kiss? Your first submiss?”
-Lysander thought hard. They could give away something painful, but would it change them? Would it cheapen what they’d learned?
+Percival fluttered closer. 
+“Make it a juicy portrayal! A betrayal? A forbidden kiss? Your first submiss?”
+Lysander thought hard. They could give away something painful, 
+but would it change them? 
+Would it cheapen what they’d learned?
 They chose: “The moment I laughed at someone’s dream. I mocked it out of envy.”
-Grumbrot reached into their chest. A shimmer drifted upward and vanished into his fist.
+Grumbrot reached into their chest. A shimmer drifted upward 
+and vanished into his fist.
 “You may pass.”
 ~Percival’s Parting Gift~
 Percival stopped Lysander near the middle of the bridge. “One moment, darling.”
 He reached into his satchel and pulled out a single midnight feather.
-“This was once my final quill,” he whispered. “But the curse had another will. It gave me a second life, costing me my time with my wife. Use it when the truth must be written—do not just let it sit in.”
+“This was once my final quill,” he whispered. “But the curse had another will. 
+It gave me a second life, costing me my time with my wife. 
+Use it when the truth must be written—do not just let it sit in.”
 Lysander bowed. “Thank you.”
-“Also,” the crow added, “if you ever meet a talking teapot named Thistle, tell her I still miss our sunset missal.”
-As Lysander stepped off the bridge, the Compass of Longing twirled like a dancer and pointed south—toward the Maze of Caves, where echoes wore masks and guilt had claws.
-But something had shifted. The riddles hadn’t just tested wit—they’d stirred reflection. Lysander felt their soul shining with stories yet untold.
+“Also,” the crow added, “if you ever meet a talking teapot named Thistle, 
+tell her I still miss our sunset missal.”
+As Lysander stepped off the bridge, the Compass of Longing twirled 
+like a dancer and pointed south—toward the Maze of Caves, where echoes 
+wore masks and guilt had claws. But something had shifted. 
+The riddles hadn’t just tested wit—they’d stirred reflection. 
+Lysander felt their soul shining with stories yet untold.
 Their curse still ticked. But hope had begun to grow.
 ~~
 Chapter 3: Maze of Caves
 Where echoes wear masks and memories whisper truths
 ~Whisperdeep~
-Lysander stood at the mouth of the Whisperdeep—a gaping fissure in the earth known to dreamers and madmen as the Maze of Caves. Mist curled upward from the entrance, stained violet by moonlight. The Compass of Longing spun erratically, as if uncertain of what the heart required here.
-Above the entrance, etched into soot-streaked stone, was a single line in trembling script:
+Lysander stood at the mouth of the Whisperdeep—a gaping fissure in the 
+earth known to dreamers and madmen as the Maze of Caves. 
+Mist curled upward from the entrance, stained violet by moonlight. 
+The Compass of Longing spun erratically, as if uncertain of what the 
+heart required here. Above the entrance, etched into soot-streaked stone, 
+was a single line in trembling script:
 “No map exists. You must remember the way.”
 They exhaled and stepped into the dark.
 ~The Echo Gate~
-The first chamber was round, carved in concentric circles of basalt. In the center stood an Echo Gate—a towering arch inscribed with runes that shimmered like shattered glass.
-A voice, unmistakably their own, rippled through the chamber:
+The first chamber was round, carved in concentric circles of basalt. 
+In the center stood an Echo Gate—a towering arch inscribed with runes 
+that shimmered like shattered glass. A voice, unmistakably their own, 
+rippled through the chamber:
 “I don’t need anyone. I never have.”
 The runes flared.
 Another voice—their sibling’s—spoke softly: “You did.”
 Then the gate trembled open.
-Every whisper along the walls repeated words Lysander had spoken over the years—some playful, some sharp, some cruel. They realized the Echo Gate had opened not from strength, but acknowledgment. Vulnerability was the key.
+Every whisper along the walls repeated words Lysander had spoken 
+over the years—some playful, some sharp, some cruel. 
+They realized the Echo Gate had opened not from strength, but acknowledgment. 
+Vulnerability was the key.
 ~The Hall of Memory~
-The tunnel beyond split into a corridor lined with living murals. Each painting bled pigment and sound.
+The tunnel beyond split into a corridor lined with living murals. 
+Each painting bled pigment and sound.
 Scene after scene unfolded:
-* A childhood moment: Lysander blamed a friend for a broken lute. The friend stood silently, punished unfairly.
-* A theft: They’d distracted the guards with flair while a stranger—naive and slow—was arrested in their stead.
+* A childhood moment: Lysander blamed a friend for a broken lute. 
+    The friend stood silently, punished unfairly.
+* A theft: They’d distracted the guards with flair while a stranger—naive and 
+    slow—was arrested in their stead.
 * A stage: Praise thundered for a poem they hadn't written. They bowed anyway.
 As each image pulsed, Lysander had to speak aloud—not in denial, but in acceptance.
 “I was selfish. I was admired for what I stole. I let someone suffer so I wouldn’t.”
@@ -166,17 +239,21 @@ Each offered a price:
 Lysander chose the child’s path.
 The child whispered: “Truth breaks before it binds.”
 ~The Mirror Maze~
-The chosen path led to a corridor of polished obsidian mirrors—not reflecting form, but emotion. Each surface shimmered with alternate versions of Lysander:
+The chosen path led to a corridor of polished obsidian mirrors—not reflecting form, 
+but emotion. Each surface shimmered with alternate versions of Lysander:
 * Angry Lysander—raging at injustice real and imagined.
 * Arrogant Lysander—proud, untouched by empathy.
 * Hopeful Lysander—gathering dreams like stars.
 * Joyful Lysander—dancing with friends long lost.
-At the end, one mirror showed Lysander with wings—silver, ethereal, glowing with light. This reflection spoke:
+At the end, one mirror showed Lysander with wings—silver, ethereal, 
+glowing with light. This reflection spoke:
 “You wear wings with words. But clip them with shame.”
-From the mirror's base, Lysander removed a shard wrapped in enchanted silk. They tucked it close to their heart, feeling both pain and promise.
+From the mirror's base, Lysander removed a shard wrapped in enchanted silk. 
+They tucked it close to their heart, feeling both pain and promise.
 ~The Lost Time Trial~
 The final cavern warped time itself.
-Seconds stretched into hours, or vanished like mist. Ghosts drifted here—not undead, but unlived—alternate versions of Lysander.
+Seconds stretched into hours, or vanished like mist. Ghosts drifted here—not undead, 
+but unlived—alternate versions of Lysander.
 Three approached:
 * A bard who chose comfort over honesty, adored but empty.
 * A ruler who lied to protect peace, haunted by guilt.
@@ -189,178 +266,299 @@ Their dialogue burned:
 * “…No. I’ll find another way.”
 The ghost bowed, releasing a Rune of Remembrance, etched in silver and memory.
 ~The Ascent~
-Upward led a spiral tunnel washed in dawnlight. Vines kissed Lysander’s fingers as they climbed. The Compass no longer spun—it glowed with resolve.
-Lysander emerged into daylight, blinking at the sky that felt both earned and unfamiliar.
-The curse still loomed—but the soul had changed.
-Behind them lay illusions, regrets, and truths faced alone. Ahead waited Serenna, the village of peaceful spirits, lullabies, and healing wind. But Lysander now walked taller—not because they were cured, but because they had begun stitching their soul together with courage.
+Upward led a spiral tunnel washed in dawnlight. Vines kissed Lysander’s 
+fingers as they climbed. The Compass no longer spun—it glowed with resolve.
+Lysander emerged into daylight, blinking at the sky that felt both earned 
+and unfamiliar.The curse still loomed—but the soul had changed.
+Behind them lay illusions, regrets, and truths faced alone. Ahead waited Serenna, 
+the village of peaceful spirits, lullabies, and healing wind. But Lysander now walked taller—not 
+because they were cured, but because they had begun stitching their soul 
+together with courage.
 ~~
 Chapter 4: The Peace Village
  Where silence sings and forgiveness takes root beneath stars
 ~Serenna~
-The sun had just begun its descent when Lysander stepped out of the final cavern into open valley air. Soft lavender grasses waved gently in the breeze, and sky-lanterns drifted lazily overhead. The Compass of Longing pulsed with a peaceful rhythm, no longer frantic. The curse still lingered—but its grip had slackened, like a storm just beginning to forget why it had raged.
-Ahead lay Serenna, a village untouched by war, untroubled by time. It was not marked on any map, nor spoken of in crowded taverns. Travelers rarely found it unless they needed it—not with their hands, but with their hearts.
+The sun had just begun its descent when Lysander stepped out of the 
+final cavern into open valley air. 
+Soft lavender grasses waved gently in the breeze, and sky-lanterns 
+drifted lazily overhead. The Compass of Longing pulsed with a peaceful 
+rhythm, no longer frantic. The curse still lingered—but its grip had slackened, 
+like a storm just beginning to forget why it had raged.
+Ahead lay Serenna, a village untouched by war, untroubled by time. 
+It was not marked on any map, 
+nor spoken of in crowded taverns. Travelers rarely found it unless 
+they needed it—not with their hands, but with their hearts.
 Lysander was weary. But the path to healing had begun.
 ~The Soundless Arrival~
-Music drifted through the valley—but no instrument played it. It was as if the wind itself carried the hum of memories, resonating from the polished stones of Serenna’s paths. Lysander entered and was greeted not with words, but with nods, soft smiles, and gentle gestures.
+Music drifted through the valley—but no instrument played it. 
+It was as if the wind itself carried the hum of memories, 
+resonating from the polished stones of Serenna’s paths.
+Lysander entered and was greeted not with words, 
+but with nods, soft smiles, and gentle gestures.
 No one spoke aloud.
-Yet, conversation flourished in subtle notes—bells chiming on doorframes, reeds rustling in choreographed gusts, children giggling as their laughter scattered seeds across the soil.
+Yet, conversation flourished in subtle notes—bells chiming on doorframes, reeds 
+rustling in choreographed gusts, children giggling as their 
+laughter scattered seeds across the soil.
 Here, sound was sacred. Words, when spoken, had to matter.
 ~The Breath Garden~
-At the center of Serenna lay a circular grove of silverleaf plants. Each emitted a faint scent only when breathed upon. Lysander was invited to walk among them.
+At the center of Serenna lay a circular grove of silverleaf plants. 
+Each emitted a faint scent only when breathed upon. 
+Lysander was invited to walk among them.
 Their exhale stirred a vine, which whispered back a forgotten lullaby.
 Their inhale coaxed blooms from a thistle thought dead.
-A gentle gardener named Emri guided them. “We shape the air here,” he signed. “Not just with lungs, but with honesty. Speak something true, and the garden grows.”
+A gentle gardener named Emri guided them. 
+“We shape the air here,” he signed. “Not just with lungs, but with honesty. 
+Speak something true, and the garden grows.”
 Lysander whispered: “I mocked beauty because I feared I had none.”
 Petals burst forth. The vines twined upward.
 “You are blooming,” Emri signed.
 ~The House of Lost Names~
-Later, Lysander was led to a crystal-roofed dwelling where memory orbs floated like fireflies. Each orb belonged to someone who had forgotten themselves—either by choice or sorrow.
+Later, Lysander was led to a crystal-roofed dwelling where memory orbs floated 
+like fireflies. Each orb belonged to someone who 
+had forgotten themselves—either by choice or sorrow.
 Lysander placed a hand on an orb that pulsed faintly.
 Inside, they saw:
 * The angel’s face, illuminated by dusk.
 * Their own voice echoing, sharp with humor.
 * The silence that followed—and the sorrow that bloomed.
-A Voicekeeper placed the orb gently into a basin. “We remember. Even what hurts. Especially that.”
+A Voicekeeper placed the orb gently into a basin. 
+“We remember. Even what hurts. Especially that.”
 For the first time, Lysander did not flinch.
 ~The Ritual of Soft Words~
-That evening, Serenna held a quiet ritual—flamecasting. Villagers gathered by the Mirrorlake, each holding a candle carved with a single word they no longer wished to wound with.
+That evening, Serenna held a quiet ritual—flamecasting. 
+Villagers gathered by the Mirrorlake, 
+each holding a candle carved with a single word they no 
+longer wished to wound with.
 Lysander wrote “cleverness.”
 When their candle met the water, it flared then calmed, drifting away.
-Children sang a song made only of hums and sighs. The stars reflected in the lake began to shimmer. Lysander felt themselves unravel—not like the curse, but like knots loosening inside.
+Children sang a song made only of hums and sighs. The stars reflected in the 
+lake began to shimmer. Lysander felt themselves unravel—not like the curse, 
+but like knots loosening inside.
 ~Confronting Stillness~
-Before departing, Lysander was invited to Stillpath, a winding trail that offered no distractions—no sounds, no sights, just silence.
+Before departing, Lysander was invited to Stillpath, a winding trail 
+that offered no distractions—no sounds, no sights, just silence.
 Here, the curse whispered most.
 “You are empty. You are noise.”
 But Lysander whispered back: “I am still here.”
 The silence accepted this. The Compass of Longing shifted westward.
 And the angel, wherever they walked beneath the heavens, exhaled.
 ~End of Chapter 4~
-As Lysander left Serenna, their pace was slower—but more purposeful. They’d come seeking redemption, but found resonance. The village gave no answers, only reflections—and the chance to hear their own soul clearly.
-The road ahead led to Farmer Elswith, the river trials, and a boat that would only sail with honesty.
+As Lysander left Serenna, their pace was slower—but more purposeful. 
+They’d come seeking redemption, but found resonance. 
+The village gave no answers, only reflections—and the chance 
+to hear their own soul clearly.
+The road ahead led to Farmer Elswith, the river trials, 
+and a boat that would only sail with honesty.
 But Serenna had already begun the healing.
 ~~
-Chapter 5: Farmer Elswith and Wyrmwater
+Chapter 5: Farmer Elswith
  Where honesty churns rivers and stubborn hearts break spells
 ~Elswith’s Domain~
-Past the serene meadows beyond Serenna, Lysander reached a land where the earth itself seemed to breathe—a patchwork of misty fields, winding brooks, and crops that shimmered faintly under moonlight. Here stood a crooked windmill and a sagging cottage, its roof overrun with moss and mild rebellion from territorial squirrels.
+Past the serene meadows beyond Serenna, Lysander reached a land 
+where the earth itself seemed to breathe—a patchwork of misty fields, 
+winding brooks, and crops that shimmered faintly under moonlight. 
+Here stood a crooked windmill and a sagging cottage, its roof overrun with moss 
+and mild rebellion from territorial squirrels.
 This was Farmer Elswith’s domain.
-It was said that she had once wrestled a sky-boar with her bare hands and baked bread that could reverse a sad mood in one bite. She was revered, feared, and occasionally blamed when crops grew too intelligent. Lysander’s Compass pulsed as they stepped through her gate, unsure which would be more stubborn—the farmer or the curse tightening around their soul
+It was said that she had once wrestled a sky-boar with her bare hands 
+and baked bread that could reverse a sad mood in one bite. 
+She was revered, feared, and occasionally blamed when crops grew too intelligent. 
+Lysander’s Compass pulsed as they stepped through her gate, unsure 
+which would be more stubborn—the farmer or the curse tightening around their soul
 ~The Farmer with Fire in Her Eyes~
-Elswith was trimming her hedges with shears carved from meteoric ore when Lysander arrived. Her eyes narrowed, scanning them like an unfinished recipe.
+Elswith was trimming her hedges with shears carved from meteoric ore 
+when Lysander arrived. Her eyes narrowed, scanning them like an unfinished recipe.
 “What do you want?”
-“A boat,” Lysander said. “One that survives the Wyrmwater Rapids. And possibly... forgiveness.”
+“A boat,” Lysander said. “One that survives the Wyrmwater Rapids. 
+And possibly... forgiveness.”
 “You cursed?”
 “Yes. Not by accident. But by arrogance.”
-Elswith tossed the shears into a bucket. “Then you’ll have to earn the ride. Honesty’s the only currency I take—no gold, no charm.”
+Elswith tossed the shears into a bucket. 
+“Then you’ll have to earn the ride. Honesty’s the only currency 
+I take—no gold, no charm.”
 ~Labors of the Cursed~
 Elswith gave Lysander a list:
 * Mend the fence along the Sasswood Ridge, where the saplings bite if insulted.
-* Milk her goat of moods, named Doria, who only cooperated when serenaded with sincerity.
-* Bake a fireberry loaf using precise emotion ratios in the dough—too much guilt and it explodes.
-Lysander’s first attempt at singing to Doria resulted in three headbutts and a riot among the chickens. It wasn’t until they hummed a lullaby they’d once heard sung to them that Doria stilled and let herself be milked, mood and all.
-For the fireberry loaf, Lysander confessed—whispering truths into the flour:
+* Milk her goat of moods, named Doria, who only cooperated when 
+    serenaded with sincerity.
+* Bake a fireberry loaf using precise emotion ratios in the dough—too 
+    much guilt and it explodes.
+Lysander’s first attempt at singing to Doria resulted in three headbutts 
+and a riot among the chickens. It wasn’t until they hummed a 
+lullaby they’d once heard sung to them that Doria stilled and 
+let herself be milked, mood and all.For the fireberry loaf, 
+Lysander confessed—whispering truths into the flour:
 “I feared being ordinary. I made someone else feel small so I wouldn’t.”
 The oven shimmered. The loaf didn’t explode.
-Elswith tasted it and sighed. “Fine. You’ve earned half the boat.”
+Elswith tasted it and sighed. 
+“Fine. You’ve earned half the boat.”
 “Half?”
 “You haven’t cried yet.”
-~Midnight by the Mirror Window~
-That night, Elswith invited Lysander to sit by a mirrored window that didn’t reflect appearance—but intention.
-Lysander saw themselves chasing applause, charm dripping like honey, words sharp as razors.
-But beneath it all, a soft, flickering shape—small, bright, fragile.
+~Midnight Mirror Window~
+That night, Elswith invited Lysander to sit by a mirrored window 
+that didn’t reflect appearance—but intention.
+Lysander saw themselves chasing applause, charm dripping like honey, 
+words sharp as razors.But beneath it all, a soft, 
+flickering shape—small, bright, fragile.
 “Speak to it,” Elswith said.
 Lysander leaned closer. “I wanted to be seen. But I forgot to see others.”
 The mirror warmed. Elswith nodded. “You’ve earned the other half.”
 ~The Truthbound Boat~
-The next morning, Elswith showed them the Truthbound Boat—crafted from driftwood, dragon-scale paint, and knots tied with confessions.
+The next morning, Elswith showed them the Truthbound Boat—crafted from driftwood,
+dragon-scale paint, and knots tied with confessions.
 “It’ll steer true,” she warned, “unless you lie while aboard. Then it sinks. Fast.”
 Lysander stepped in. The Compass hummed. The curse throbbed, but fainter.
-Elswith gave them one final gift: a pouch of dreamsalt, which could calm rivers—or terrify them, depending on who scattered it.
+Elswith gave them one final gift: a pouch of dreamsalt, 
+which could calm rivers—or terrify them, depending on who scattered it.
 And then, with a wave and a wink, she turned back to her sentient carrots.
-As Lysander drifted from the shore, the river ahead roared like a living beast. The Wyrmwater Rapids would not be merciful—but they would be honest. And so must Lysander be.
+As Lysander drifted from the shore, the river ahead roared like a living beast. 
+The Wyrmwater Rapids would not be merciful—but they would be honest. 
+And so must Lysander be.
 ~~
 Chapter 6: River Trials
  Where memory floods and truth is the raft
 ~Wyrmwater Rapids~
-Lysander drifted into the mouth of the Wyrmwater Rapids, the boat groaning with truth-bound knots and salted dreams. The river was no longer just water—it was whispers and roars, currents and memories, a beast made of everyone Lysander had ever been.
-The Compass spun erratically as if unsure what direction counted as forward. Shadows rippled beneath the boat—some harmless, some hungry. And above it all, the sky flickered with soft lightning that revealed faces in the clouds. Faces Lysander recognized.
+Lysander drifted into the mouth of the Wyrmwater Rapids, the boat groaning with 
+truth-bound knots and salted dreams. The river was no longer just water—it 
+was whispers and roars, currents and memories, a beast made of everyone 
+Lysander had ever been.
+The Compass spun erratically as if unsure what direction counted as forward. 
+Shadows rippled beneath the boat—some harmless, some hungry. And above it all, 
+the sky flickered with soft lightning that revealed faces in the clouds. 
+Faces Lysander recognized.
 ~Monsters Worn Like Memories~
-The first trial came as mist—then mist became form. A creature stepped from the fog, built of laughter Lysander once faked, cloaked in compliments used to manipulate.
+The first trial came as mist—then mist became form. A creature stepped from the fog, 
+built of laughter Lysander once faked, cloaked in compliments used to manipulate.
 “I am who you pretended to be,” it hissed.
 Lysander responded not with sword, but with truth:
 “I lied. I feared that without charm, I’d disappear.”
 The creature shrank, rippled, and vanished into thin air.
 ~Trial of the Deep Bend~
-At the river’s sharp curve, the boat stalled. A boulder rose from the riverbed, blocking the path. Carved upon it:
+At the river’s sharp curve, the boat stalled. 
+A boulder rose from the riverbed, blocking the path. Carved upon it:
 “Tell the moment you truly broke.”
 Lysander closed their eyes.
-“I once walked away from someone who needed me. I called it boundaries, but I just didn’t want to be needed.”
+“I once walked away from someone who needed me. I called it boundaries, 
+but I just didn’t want to be needed.”
 The river accepted the confession. The boulder sank.
 ~Rapids of Reflection~
-The final stretch roared like a dragon throat. Light danced on the surface—memories of every confrontation, every betrayal, every choice. The boat wobbled, sensing a lie.
+The final stretch roared like a dragon throat. Light danced on the surface—memories 
+of every confrontation, every betrayal, every choice. The boat wobbled, sensing a lie.
 But Lysander had none left to give.
 Instead, they scattered the dreamsalt, whispering:
 “May you see me. May I see myself.”
 The river calmed.
-The Compass stopped spinning. It pointed forward—not because the destination was known, but because Lysander was finally steering with honesty.
+The Compass stopped spinning. It pointed forward—not because the destination 
+was known, but because Lysander was finally steering with honesty.
 They emerged from the rapids soaked, trembling and changed.
 ~~
-Chapter 7: Fyralor & the Flamebound Trial
+Chapter 7: The Flamebound Trial
  Where fire remembers and courage earns its voice
 ~The Scorched Highlands~
-Beyond the river’s relentless truths, Lysander climbed into scorched highlands where the wind sang in embers and trees bore bark like charred parchment. The Compass no longer pulsed—it trembled. As if it knew the heat ahead could forge or fracture completely.
-And then, in a clearing lined with obsidian stones and whispers of ash, stood Fyralor—a being not made, but born of flame. A monstrous wyrm with scales like molten stone and eyes that held centuries of fury. The dragon's roar cracked the sky, a sound of pure wrath that bent trees and shattered stone.
+Beyond the river’s relentless truths, Lysander climbed into scorched highlands 
+where the wind sang in embers and trees bore bark like charred parchment. 
+The Compass no longer pulsed—it trembled. As if it knew the heat ahead could 
+forge or fracture completely.
+And then, in a clearing lined with obsidian stones and whispers of ash, stood 
+Fyralor—a being not made, but born of flame. A monstrous wyrm with scales like molten
+ stone and eyes that held centuries of fury. The dragon's roar cracked the sky, 
+ a sound of pure wrath that bent trees and shattered stone.
 They spoke with a voice like crackling wood:
 “You carry honesty. Now prove you can carry the consequence.”
 ~A Dragon’s Trap~
-Fraylor lunged, fangs bared, tail sweeping in a blur that shattered the ground behind Lysander. The warrior spun, just narrowly avoiding the blast of fire that turned the ridge into an inferno. They leapt through the flames, blade aimed true—slashing through air and smoke to strike at Fraylor’s exposed wing joint.
-The dragon shrieked, wings buckling mid-beat, but landed hard, sending a shockwave that knocked Lysander off their feet. Claws carved at the earth, missing them by inches, while fire licked at their boots. They rolled, eyes burning with determination, and stabbed their blade into the ground.
+Fraylor lunged, fangs bared, tail sweeping in a blur that shattered the ground 
+behind Lysander. The warrior spun, just narrowly avoiding the blast of fire that 
+turned the ridge into an inferno. They leapt through the flames, 
+blade aimed true—slashing through air and smoke to strike at 
+Fraylor’s exposed wing joint.
+The dragon shrieked, wings buckling mid-beat, but landed hard, sending a 
+shockwave that knocked Lysander off their feet. Claws carved at the earth, 
+missing them by inches, while fire licked at their boots. They rolled, 
+eyes burning with determination, and stabbed their blade into the ground.
 Arcane lines lit the ridge in a web of silver light.
 A trap.
-Fraylor surged forward—too fast—and the runes exploded in a burst of crystalline force, pushing the dragon back. Lysander rose amid the swirling dust, face smeared with soot, heart pounding like war drums. They knew this was far from over. Fraylor was wounded... but so are they.
+Fraylor surged forward—too fast—and the runes exploded in a burst of 
+crystalline force, pushing the dragon back. Lysander rose amid the swirling dust, 
+face smeared with soot, heart pounding like war drums. 
+They knew this was far from over. 
+Fraylor was wounded... but so are they.
 And dusk had only just begun.
 ~The Final Stand~
-The dust hadn’t yet settled before Fraylor rose again, embers flaring between his teeth, his serpentine neck arcing like a storm about to break. The rune trap had wounded him—charred streaks ran along his flank—but rage thrummed stronger than pain.
-Lysander, panting, blood trickling from a gash above their brow, narrowed their eyes. The battle was shifting. Not toward victory, but toward something more ancient... and more dangerous.
-Fraylor reared back and released a different kind of fire—not flame, but smoke thick with illusion. A miasma that cloaked the field in whispers and phantom visions. Lysander heard laughter that didn’t belong to anyone living. He stumbled through the haze, blade drawn, every shadow a potential death.
+The dust hadn’t yet settled before Fraylor rose again, embers 
+flaring between his teeth, his serpentine neck arcing like a storm about to break. 
+The rune trap had wounded him—charred streaks ran along his flank—but 
+rage thrummed stronger than pain.
+Lysander, panting, blood trickling from a gash above their brow, narrowed their eyes. 
+The battle was shifting. Not toward victory, but toward something more ancient... 
+and more dangerous.
+Fraylor reared back and released a different kind of fire—not flame, 
+but smoke thick with illusion. A miasma that cloaked the field in whispers 
+and phantom visions. Lysander heard laughter that didn’t belong to anyone living. 
+He stumbled through the haze, blade drawn, every shadow a potential death.
 ~The Dragon’s Demise~
-Lysander stood victorious, their sword broken and lying shattered on the scorched ground as they panted heavily. The heat of battle still lingered in the air, curling in wisps above the bloodied earth, where echoes of clashing steel had only just faded into silence. Every breath they drew was laced with pain and triumph—a reminder of what they had endured, and of the cost of standing alone in the aftermath.
-As Lysander walked toward the horizon, now awash in violet dusk, the sky stretched wide with the solemn grace of twilight, cloaking the world in shades of serenity that contradicted the violence left behind. They weren’t just surviving the quest—they were becoming its truth. Each step forward carried the weight of revelations, sacrifice, and transformation. The trials had carved them anew, chiseling out doubt and forging resolve in its place. And though the sword was gone, shattered beyond repair, something deeper had been tempered within.
-The road ahead was uncertain, but Lysander no longer feared its twists. For in the fire of all they had faced, they had found not only victory—but clarity.
+Lysander stood victorious, their sword broken and lying shattered on the 
+scorched ground as they panted heavily. The heat of battle still lingered in the air, 
+curling in wisps above the bloodied earth, where echoes of clashing steel had only 
+just faded into silence. Every breath they drew was laced with pain and triumph—a 
+reminder of what they had endured, and of the cost of standing alone in the aftermath.
+As Lysander walked toward the horizon, now awash in violet dusk, 
+the sky stretched wide with the solemn grace of twilight, cloaking the world in 
+shades of serenity that contradicted the violence left behind. They weren’t just 
+surviving the quest—they were becoming its truth. Each step forward carried the 
+weight of revelations, sacrifice, and transformation. The trials had carved them anew, 
+chiseling out doubt and forging resolve in its place. And though the sword was gone, 
+shattered beyond repair, something deeper had been tempered within.
+The road ahead was uncertain, but Lysander no longer feared its twists. 
+For in the fire of all they had faced, they had found not only victory—but clarity.
 ~~
 Chapter 8: The Tower and the Angel’s Return
  Where hope climbs and wings remember
 ~Echoing Keep~
-Across the obsidian valley now veiled in twilight mist, Lysander approached the base of a towering spire—The Echoing Keep. Its stones were stitched with old songs, and its windows blinked like memories half-awake. No doors, no guards, only the sound of wind repeating forgotten truths.
+Across the obsidian valley now veiled in twilight mist, Lysander 
+approached the base of a towering spire—The Echoing Keep. Its stones were 
+stitched with old songs, and its windows blinked like memories half-awake. 
+No doors, no guards, only the sound of wind repeating forgotten truths.
 The Compass did not point—it hummed, as if waiting.
 Then, from above, a voice that sounded both like thunder and lullaby:
 “You’ve come far. But the tower listens only to those who speak what cannot be said.”
-Descending in a halo of feathers and flame was the Angel of the First Tear—a figure Lysander had met once in dreams and once at the edge of death. Wings repaired, gaze vast and sorrowful, they spoke again.
+Descending in a halo of feathers and flame was the Angel of the First Tear—a 
+figure Lysander had met once in dreams and once at the edge of death. Wings repaired, 
+gaze vast and sorrowful, they spoke again.
 “Tell me what you never told yourself.”
-~Ascending in Confession~
-To rise through the tower, Lysander had to speak truths at every level. Each floor demanded vulnerability.
+~Ascending~
+To rise through the tower, Lysander had to speak truths at every level. 
+Each floor demanded vulnerability.
 * Floor of Childhood Echoes
  “I wanted to be brave—but I also wanted someone to notice how scared I was.”
 * Floor of Betrayals
  “I hurt them first so they couldn’t hurt me.”
 * Floor of the Mirrorless Room
  “I believed I was broken, so I broke things to feel consistent.”
-With each confession, stairs shimmered into being, carved from vulnerability and lit with the Angel’s silent approval.
+With each confession, stairs shimmered into being, carved from vulnerability 
+and lit with the Angel’s silent approval.
 ~The Angel’s Memory~
-At the top, in a chamber woven of silver vines and moonlight, the Angel offered Lysander a memory—not theirs, but one they had been entrusted to keep.
-It was Lysander’s own moment of grace from long ago. A time they'd helped someone, unknowingly, with a gesture so pure it could not be replicated.
+At the top, in a chamber woven of silver vines and moonlight, the Angel offered 
+Lysander a memory—not theirs, but one they had been entrusted to keep.
+It was Lysander’s own moment of grace from long ago. A time they'd helped someone, 
+unknowingly, with a gesture so pure it could not be replicated.
 “You forgot this,” the Angel whispered. “But it remembered you.”
 Lysander wept—not from sorrow, but recognition.
 ~The Gift of Wing-Stone~
-The Angel placed a Wing-Stone in Lysander’s palm—a gem that hums when you're close to healing, and dims when you stray from yourself.
+The Angel placed a Wing-Stone in Lysander’s palm—a gem that hums when 
+you're close to healing, and dims when you stray from yourself.
 “Use it to unlock what binds you,” said the Angel, already fading.
-As the dawn cracked beyond the tower, painting skies in defiance of shadow, Lysander stepped out, Compass glowing steady.
+As the dawn cracked beyond the tower, painting skies in defiance of shadow, 
+Lysander stepped out, Compass glowing steady.
 ~~
 Chapter 9: Epilogue — The Quiet Horizon
-~Where stories end, but truth lingers like morning dew~
+~Where stories end~
 The winds were calm now.
-Lysander sat at the edge of a high cliff, overlooking every realm they had crossed—the shimmering meadows of Serenna, the roaring Wyrmwater, the scorched highlands of Fyralor, and the spectral tower where memories turned to wings.
-The Compass no longer pulsed. It rested.
+Lysander sat at the edge of a high cliff, overlooking every realm they 
+had crossed—the shimmering meadows of Serenna, the roaring Wyrmwater, 
+the scorched highlands of Fyralor, and the spectral tower where memories 
+turned to wings.The Compass no longer pulsed. It rested.
 Not because the journey was over, but because it had become internal.
-Lysander rose, not with fanfare, but steady grace. No map needed now. The path was written in footsteps. Each day ahead would hold challenges—some mundane, some marvelous—but never again would they walk without knowing who walked within.
+Lysander rose, not with fanfare, but steady grace. No map needed now. 
+The path was written in footsteps. Each day ahead would hold challenges—some mundane, 
+some marvelous—but never again would they walk without knowing who walked within.
 ~~

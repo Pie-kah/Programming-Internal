@@ -368,16 +368,16 @@ class Challenge:
         #title label
         title_label = Label(frame, text = "Challenge 7", bg="#ffe6c9", 
                             justify="center", font=self.challenge_font)
-        title_label.grid(row=2, column=0, columnspan=3, pady=20, padx=(150,0))
+        title_label.grid(row=2, column=1, columnspan=2, pady=20, )
         
         #challenge label
-        challenge_label = Label(frame, text= "", font=self.label_font, 
+        challenge_label = Label(frame, text= "", font=self.text_font, 
                                 justify="left", bg="#ffe6c9")
-        challenge_label.grid(row=3, column=1, columnspan=3, pady=20, padx=(100,0))
+        challenge_label.grid(row=3, column=1, columnspan=2, pady=20, )
         
         #checker label
         checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
-        checker_label.grid(row=4, column=0, columnspan=4, padx=(150,0))
+        checker_label.grid(row=4, column=1, columnspan=2, )
         
         #buttons
         choice = 1
@@ -386,7 +386,8 @@ class Challenge:
         for i in range(4):
             choice_button = Button(frame, text="Confirm Choice",height=2, width=15, font = self.button_font, 
                                     relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
-                                    command=lambda: self.challenge7_choice(i, button_choices, checker_label, challenge_label, start_button))
+                                    command=lambda i=i: self.challenge7_choice(i, button_choices, 
+                                    checker_label, challenge_label, start_button))
             choice += 1
             button_choices.append(choice_button)
         
@@ -398,7 +399,40 @@ class Challenge:
         return frame
     
     def create_challenge8(self):
-        pass
+        '''chapter eight challenge'''
+        #frame
+        frame = Frame(self.container,  bg="#ffe6c9", highlightthickness=5,
+                      highlightbackground="#ceb79b", highlightcolor="#ceb79b")
+        frame.grid(row=1, column=0, sticky="nsew", pady=20, padx=20)
+        
+        #title label
+        title_label = Label(frame, text = "Challenge 8", bg="#ffe6c9", justify="center", font=self.challenge_font)
+        title_label.grid(row=2, column=1, columnspan=2, pady=20, padx=(250))
+        
+        #checker label
+        checker_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        checker_label.grid(row=3, column=1, columnspan=2,padx=(250))
+        
+        #hint label
+        hint_label = Label(frame, text="", bg="#ffe6c9", font=self.error_font)
+        hint_label.grid(row=4, column=1, columnspan=2,padx=(250))        
+        
+        #answer label and entry
+        answer_label = Label(frame, text="Answer:", bg="#ffe6c9", font=self.label_font)
+        answer_entry = Entry(frame, bg="#ffe6c9", font=self.label_font,width=15)
+        
+        #button
+        checker_button = Button(frame, text="Check",height=3, width=30, font = self.button_font, 
+                                relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                command=lambda: self.challenge8_check(answer_label, checker_label, answer_entry, start_button, hint_label))
+        checker_button.grid(row=7, column=1, columnspan=2, sticky="", pady=20, padx=(250))
+        
+        start_button = Button(frame, text="Start",height=3, width=30, font = self.button_font, 
+                                    relief=RIDGE, bg="#fff3e6", activebackground="#ceb79b",
+                                    command=lambda: self.challenge8_start(start_button, answer_label, answer_entry))
+        start_button.grid(row=7, column=1, columnspan=2, sticky="", pady=20, padx=(250))          
+        
+        return frame 
     
     def challenge1_1(self, answer_text, checker):
         '''checking if the answer for challenge 1.1 is correct'''
@@ -849,45 +883,166 @@ class Challenge:
         i = 0 
         
         for btn in button_lists:
+            #showing the button with choices
             row_num = i//2 
             col_num = i%2
-            btn.grid(row=(row_num+5), column=col_num, padx=10, pady=10, sticky="we")
+            btn.grid(row=(row_num+5), column=col_num+1, padx=(50), pady=10, sticky="we")
             btn.config(text=first_set[choice_text])
             choice_text += 1
             i += 1
         
+        #showing the question 
         question = self.question7[self.num7]
         label.config(text=question)   
     
-    def challenge7_choice(self):
-        pass
+    def challenge7_choice(self, index, button_list, correct, label, start_button):
+        #inputs
+        selected = self.choices7[self.num7]
+        choice = selected[index]
+        
+        #checker
+        if choice == self.answer7[self.num7]:
+            #if answer is correct
+            self.score += 1
+            correct.config(text="Correct Answer", fg = "green")
+        else:
+            #if answer is incorrect
+            self.attempts += 1
+            correct.config(text="Incorrect", fg = "red")
+        
+        #onto next question
+        self.num7 += 1
+        
+        if self.num7 != 15:
+            #checking it isnt end of questions 
+            choice_set = self.choices7[self.num7]
+            choice_text = 0
+            i = 0
+            
+            for btn in button_list:
+                #showing the button with choices 
+                row_num = i//2 
+                col_num = i%2
+                btn.grid(row=(row_num+5), column=col_num+1, padx=(50), pady=10, sticky="we")
+                btn.config(text=choice_set[choice_text])
+                choice_text += 1
+                i += 1
+            
+            #showing the question
+            question = self.question7[self.num7]
+            label.config(text=question)
+        
+        elif self.num7 == 15:
+            #if the end is reached 
+            if self.score >= 12:
+                #checking you have winning score
+                correct.config(text="You Win!", fg="black")
+                self.root.after(1500, self.root.destroy) 
+            else:
+                #if not try again 
+                correct.config(text="You Lose", fg="black")
+                for btn in button_list:
+                    btn.grid_remove()
+                start_button.grid(row=6, column=0, columnspan=2, sticky="we", pady=20, padx=(250,0))
+                        
     
-    def challenge8(self):
-        pass
+    def challenge8_start(self, button, answer_label, answer_entry):
+        #variables 
+        self.num8 = 0
+        self.questions8 = []
+        self.choices8 = []
+        self.answers8 = []
+        
+        #remove start button
+        button.grid_remove()
+        
+        #read json file 
+        with open(self.file_path) as f:
+            file = json.load(f)
+            
+            for key, value in file.items():
+                if key == "ch8":
+                    quiz = value
+        
+        for key, value in quiz.items():
+            #getting the values
+            q = value["question"]
+            a = value["answer"]
+            c = value["choices"]
+            
+            #add to lists 
+            self.questions8.append(q)
+            self.answers8.append(a)
+            self.choices8.append(c)
+            
+        #showing answer
+        answer_label.config(text=self.questions8[self.num8])
+        
+        #showing answer label and entry
+        answer_label.grid(row=5, column=1,columnspan=2,pady=20, padx=(250))
+        answer_entry.grid(row=6, column=1, columnspan=2,pady=20, padx=(250))        
+    
+    def challenge8_check(self, label, correct, answer_text, start_button, hint):
+        answer = answer_text.get()
+        
+        if self.num8 == 15:
+            #checking its not max
+            pass
+        elif answer.lower() == self.answers8[self.num8].lower():
+            self.num8 += 1 
+            correct.config(text="Correct Answer", fg="green")
+            hint.config(text="")
+        else:
+            self.attempts += 1
+            correct.config(text="Incorrect", fg="red")
+        
+        if self.num8 != 15:
+            hints = self.choices8[self.num8]
+            all_text = ""
+        
+        if self.attempts >= ((self.num8+1)*5):
+            for i in range(len(hints)):
+                sentence = f"{i+1}. {hints[i]}"
+                all_text = all_text+"\n"+sentence
+            
+            hint.config(text=f""" Hint:
+            {all_text}""")
+            
+        
+        answer_text.delete(0, END)
+        
+        if self.num8 == 15:
+            #if the end is reached 
+            correct.config(text="You Win!", fg="black")
+            self.root.after(1500, self.root.destroy) 
+        else:
+            #if not continue on 
+            label.config(text=self.questions8[self.num8])
+            
 
-CHALLENGE_FILE_PATH = r"N:\13PRG\st21121-Pika\Assessments\91906PikaRanzinger\Challenge_Component\challenge.json"
-CHALLENGE_CHAPTERS = {"Forest of Veymor" : "1.1",
-                      "Meeting the Sable-Faced Guide" : "1.2",
-                      "Riddle One" : "2", 
-                      "Riddle Two" : "2", 
-                      "Riddle Three" : "2",
-                      "The Chamber of Choice" :  "3",
-                      "Labors of the Cursed" : "5",
-                      "Monsters Worn Like Memories" : "6.1", 
-                      "Trial of the Deep Bend" : "6.2",
-                      "The Final Stand" : "7", 
-                      "Ascending in Confession" : "8"}
-NUMBERS = ["1.1", "1.2", "2", "2", "2", "3", "5", "6.1", "6.2", "7", "8"]
+#CHALLENGE_FILE_PATH = r"N:\13PRG\st21121-Pika\Assessments\91906PikaRanzinger\Challenge_Component\challenge.json"
+#CHALLENGE_CHAPTERS = {"Forest of Veymor" : "1.1",
+                      #"Meeting the Sable-Faced Guide" : "1.2",
+                      #"Riddle One: The Hollow Recipe" : "2", 
+                      #"Riddle Two: The Invisible Clock" : "2", 
+                      #"Riddle Three: A Feather's Burden" : "2",
+                      #"The Chamber of Choice" :  "3",
+                      #"Labors of the Cursed" : "5",
+                      #"Monsters Worn Like Memories" : "6.1", 
+                      #"Trial of the Deep Bend" : "6.2",
+                      #"The Final Stand" : "7", 
+                      #"Ascending in Confession" : "8"}
+#NUMBERS = ["1.1", "1.2", "2", "2", "2", "3", "5", "6.1", "6.2", "7", "8"]
 
-turn = 1 
+#turn = 1 
 
-chal = Challenge(CHALLENGE_FILE_PATH, turn)
-frame = chal.find_frame(NUMBERS[9])
-chal.show_frame(frame)
-chal.run()
+#chal = Challenge(CHALLENGE_FILE_PATH, turn)
+#frame = chal.find_frame(NUMBERS[10])
+#chal.show_frame(frame)
+#chal.run()
 
-attempts = chal.get_attempts()
-print(attempts)
+#attempts = chal.get_attempts()
+#print(attempts)
 
 #for i in range(3):
     #chal = Challenge(CHALLENGE_FILE_PATH, turn)
