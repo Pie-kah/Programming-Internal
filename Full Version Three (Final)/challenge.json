@@ -1,0 +1,361 @@
+{
+    "ch6.2" : {
+        "7 + 5 =":12,
+        "12 - 8 =":4,
+        "4 x 6 =":24,
+        "18 / 3 =":6,
+        "25 + 17 =":42,
+        "32 - 15 =":17,
+        "9 x 7 =":63,
+        "42 / 6 =":7,
+        "53 + 29 =":82,
+        "61 - 38 =":23,
+        "8 x 4 =":32,
+        "56 / 8 =":7,
+        "12 + 19 + 31 =":62,
+        "72 - 25 - 13 =":34,
+        "6 x 8 x 2 =":96,
+        "100 / 5 / 2 =":10,
+        "45 / 9 + 11 =":16,
+        "16 - 3 x 4 =":4,
+        "(24 + 6) / 5 =":6,
+        "7 x (15 - 8) =":49
+    },
+
+    "ch7" : {
+        "question1":
+        {
+            "question" : "What mythical creature is known as a fire-breathing reptilian beast often guarding treasure?",
+            "choices" : [
+                "Basilisk",
+                "Phoenix",
+                "Dragon",
+                "Griffin"
+            ],
+            "answer" : "Dragon" 
+        },
+        "question2":
+        {
+            "question" : "Which creature from Greek mythology has the head of a lion, the body of a goat, \nand a serpent tail?",
+            "choices" : [
+                "Hydra",
+                "Sphinx",
+                "Manticore",
+                "Chimera"
+            ],
+            "answer" : "Chimera" 
+        },
+        "question3":
+        {
+            "question" : "In Norse mythology, what serpent encircles the world?",
+            "choices" : [
+                "Fafnir",
+                "Jormungandr",
+                "Lindworm",
+                "Nidhogg"
+            ],
+            "answer" : "Jormungandr" 
+        },
+        "question4":
+        {
+            "question" : "Which winged horse is associated with Greek hero Bellerophon \nand slaying of the Chimera?",
+            "choices" : [
+                "Unicorn",
+                "Sleipnir",
+                "Pegasus",
+                "Hippogriff"
+            ],
+            "answer" : "Pegasus" 
+        },
+        "question5":
+        {
+            "question" : "What creature is said to turn those who look into it's eyes to stone?",
+            "choices" : [
+                "Basilisk",
+                "Harpy",
+                "Cockatrice",
+                "Medusa"
+            ],
+            "answer" : "Basilisk" 
+        },
+        "question6":
+        {
+            "question" : "What creature from Greek mythology is half-man, half-goat, known for it's \nassociation with nature and music?",
+            "choices" : [
+                "Centaur",
+                "Minotaur",
+                "Faun",
+                "Satyr"
+            ],
+            "answer" : "Satyr" 
+        },
+        "question7":
+        {
+            "question" : "In East Asian folklore, what creature resembles a long, serpentine \ndragon often associated with water and weather?",
+            "choices" : [
+                "Wyvern",
+                "Lung",
+                "Naga",
+                "Qilin"
+            ],
+            "answer" : "Lung" 
+        },
+        "question8":
+        {
+            "question" : "Which winged beast has the body of a lion and the head and wings of an eagle?",
+            "choices" : [
+                "Chimera",
+                "Sphinx",
+                "Griffin",
+                "Manticore"
+            ],
+            "answer" : "Griffin" 
+        },
+        "question9":
+        {
+            "question" : "The Ammit, known as the 'Eater of the Dead,' appears in which ancient mythology?",
+            "choices" : [
+                "Aztec",
+                "Norse",
+                "Egyptian",
+                "Greek"
+            ],
+            "answer" : "Egyptian" 
+        },
+        "question10":
+        {
+            "question" : "In Japanese folklore, what yokai is depicted as a giant spider that can shape-shift \ninto a beautiful woman?",
+            "choices" : [
+                "Oni",
+                "Jorogumo",
+                "Kappa",
+                "Kitsune"
+            ],
+            "answer" : "Jorogumo" 
+        },
+        "question11":
+        {
+            "question" : "Which water spirit from Scottish and Irish folklore lures people onto it's back before drowning them?",
+            "choices" : [
+                "Puca",
+                "Kelpie",
+                "Banshee",
+                "Merrow"
+            ],
+            "answer" : "Kelpie" 
+        },
+        "question12":
+        {
+            "question" : "Which two-headed serpent originates from Greek mythology?",
+            "choices" : [
+                "Orthus",
+                "Hydra",
+                "Amphisbaena",
+                "Ladon"
+            ],
+            "answer" : "Amphisbaena" 
+        },
+        "question13":
+        {
+            "question" : "The Catoblepas, a creature from Ethiopian legend is said to have what deadly attribute?",
+            "choices" : [
+                "Petrifying gaze",
+                "Paralyzing roar",
+                "Venomous bite",
+                "Toxic breath"
+            ],
+            "answer" : "Toxic breath" 
+        },
+        "question14":
+        {
+            "question" : "In Greco-Roman mythology, who is considered the father of monsters?",
+            "choices" : [
+                "Gorgon",
+                "Titan",
+                "Echidna",
+                "Typhon"
+            ],
+            "answer" : "Typhon" 
+        },
+        "question15":
+        {
+            "question" : "What is the name of the legendary bird in Persian mythologyu that is said to be\n as big as a mounatian and has the ability to carry off elephants?",
+            "choices" : [
+                "Roc",
+                "Manticore",
+                "Simurgh",
+                "Thunderbird"
+            ],
+            "answer" : "Simurgh" 
+        }
+    },
+
+    "ch8" : {
+        "question1":
+        {
+            "question" : "Which hero is famous for slaying the Minotaur?",
+            "choices" : [
+                "Theseus",
+                "Achilles",
+                "Hercales",
+                "Perseus"
+            ],
+            "answer" : "Theseus" 
+        },
+        "question2":
+        {
+            "question" : "Which god is often depicted riding a chariot drawn by horses?",
+            "choices" : [
+                "Zeus",
+                "Ares",
+                "Apollo",
+                "Helios"
+            ],
+            "answer" : "Helios" 
+        },
+        "question3":
+        {
+            "question" : "Who is the Greek Goddess of the rainbow?",
+            "choices" : [
+                "Athena",
+                "Iris",
+                "Hera",
+                "Demeter"
+            ],
+            "answer" : "Iris" 
+        },
+        "question4":
+        {
+            "question" : "Which Roman god is equivalent to Zeus?",
+            "choices" : [
+                "Mars",
+                "Jupiter",
+                "Venus",
+                "Neptune"
+            ],
+            "answer" : "Jupiter" 
+        },
+        "question5":
+        {
+            "question" : "Who is the Roman goddess of love and beauty?",
+            "choices" : [
+                "Venus",
+                "Vesta",
+                "Luna",
+                "Juno"
+            ],
+            "answer" : "Venus" 
+        },
+        "question6":
+        {
+            "question" : "Which Egyptian god is associated with mummification?",
+            "choices" : [
+                "Horus",
+                "Osiris",
+                "Seth",
+                "Anubis"
+            ],
+            "answer" : "Anubis" 
+        },
+        "question7":
+        {
+            "question" : "Who is the Egyptian goddess of motherhood and fertility?",
+            "choices" : [
+                "Nepthys",
+                "Bastet",
+                "Isis",
+                "Hathor"
+            ],
+            "answer" : "Isis" 
+        },
+        "question8":
+        {
+            "question" : "What is the name of the river that flows through the Underworld in Greek mythology?",
+            "choices" : [
+                "Styx",
+                "Acheron",
+                "Phlegethon",
+                "Lethe"
+            ],
+            "answer" : "Styx" 
+        },
+        "question9":
+        {
+            "question" : "Who is the Greek god responsible for dreams?",
+            "choices" : [
+                "Morpheus",
+                "Phobetor",
+                "Hypnos",
+                "Thanatos"
+            ],
+            "answer" : "Morpheus" 
+        },
+        "question10":
+        {
+            "question" : "Which Greek god carries the caduceus?",
+            "choices" : [
+                "Ares",
+                "Apollo",
+                "Hermes",
+                "Dionysus"
+            ],
+            "answer" : "Hermes" 
+        },
+        "question11":
+        {
+            "question" : "Which Greek myth recounts the tale of a man who flew too close to the sun?",
+            "choices" : [
+                "Orpheus",
+                "Icarus",
+                "Daedalus",
+                "Prometheus"
+            ],
+            "answer" : "Icarus" 
+        },
+        "question12":
+        {
+            "question" : "Who is credited with the discovery of fire in Greek mythology?",
+            "choices" : [
+                "Man",
+                "Zeus",
+                "Prometheus",
+                "Ares"
+            ],
+            "answer" : "Prometheus" 
+        },
+        "question13":
+        {
+            "question" : "Who is the muse of epic poetry in Greek traditions?",
+            "choices" : [
+                "Calliope",
+                "Thalia",
+                "Clio",
+                "Erato"
+            ],
+            "answer" : "Calliope" 
+        },
+        "question14":
+        {
+            "question" : "Who is the legendary king associated with the Golden Fleece?",
+            "choices" : [
+                "Theseus",
+                "Minos",
+                "Cepheus",
+                "Jason"
+            ],
+            "answer" : "Jason" 
+        },
+        "question15":
+        {
+            "question" : "Which titan was condemned to be chained to a rock as punishment?",
+            "choices" : [
+                "Oceanus",
+                "Cronus",
+                "Prometheus",
+                "Atlas"
+            ],
+            "answer" : "Prometheus" 
+        }
+    }
+}
+
